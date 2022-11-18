@@ -9,7 +9,7 @@ import {
 } from './Pages';
 
 import {MainLayout} from './Layouts'
-
+import Menu from './Layouts/Menu';
 
 function App() {
 	return (
@@ -18,6 +18,7 @@ function App() {
 				<ScrollToTop>
 					<Routes>
 					<Route path='*' element={<NotFound />} />
+					<Route path='/menu' element={<Menu />} />
 				
 						
 				

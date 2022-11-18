@@ -31,6 +31,37 @@ export const navbarItems = [
 
 ];
 // -------------------------end navbar data ---------------
+// ------------------------- start menu data ---------------
+export const menuItems = [
+  
+  {
+    id: 1,
+    name: "Home",
+    route: "/about",
+  },
+  {
+    id: 2,
+    name: "Blog",
+    route: "/blog",
+  },
+  {
+    id: 3,
+    name: "Work",
+    route: "/work",
+  },
+  {
+    id: 4,
+    name: "Post",
+    route: "/post",
+  },
+  {
+    id: 5,
+    name: "Teammate",
+    route: "/teammate",
+  },
+
+];
+// -------------------------end menu data ---------------
 
 // ------------------------- start Home page data ---------------
 
