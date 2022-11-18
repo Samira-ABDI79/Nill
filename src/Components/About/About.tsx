@@ -1,10 +1,13 @@
-
+import NewCommentsForm from "./Components/NewCommentsForm/NewCommentsForm";
+import NewProjectForm from "./Components/NewProjectForm/NewProjectForm";
 
 function About(){
     return (
         <>
           
-          <div className="container bg-white h-full">
+          <div className="flex">
+              <NewProjectForm/>
+              <NewCommentsForm />
               </div>
         </>
     )
