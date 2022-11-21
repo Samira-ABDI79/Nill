@@ -1,13 +1,13 @@
 
 import images from "../../Importer/Importer";
 import NewProject from "../NewProject/NewProject";
+import ClosedProjects from "../ClosedProjects/ClosedProjects";
+import EmployersComments from "./Components/EmployersComments/EmployersComments"
 function Home(){
     return (
      <>
-      <div className="mt-10 px-8 overflow-x-hidden"> 
-
-
-</div> 
+     <EmployersComments />
+     <ClosedProjects />
 <NewProject />
      </>
     )
