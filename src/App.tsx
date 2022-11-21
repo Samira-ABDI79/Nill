@@ -4,8 +4,11 @@ import { ScrollToTop } from './Components';
 import {
 	About,
 	Home,
-	
-	NotFound
+	Blog,
+Work,
+Post,
+Teammate,
+	NotFound,
 } from './Pages';
 
 import {MainLayout} from './Layouts'
@@ -25,6 +28,12 @@ function App() {
 						<Route element={<MainLayout />}>
 						<Route path='/' element={<Home />} />
 							<Route path='/about' element={<About />} />
+							<Route path='/post' element={<Post />} />
+							<Route path='/work' element={<Work />} />
+							<Route path='/blog' element={<Blog />} />
+							<Route path='/teammate' element={<Teammate />} />
+
+
 						
 
 
