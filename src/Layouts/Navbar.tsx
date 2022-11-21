@@ -11,9 +11,9 @@ const HomeNavbar = () => {
   return (
    <>
  
-<header className="w-screen p-3 bg-screen shadow overflow-x-hidden">
+<header className="w-screen p-3 bg-dark shadow overflow-x-hidden">
     <div className="w-screen  flex justify-between p-3">
-  <p className="text-white font-bold text-xl">NILL</p>
+  <p className="text-white font-bold lg:text-xl text-2xl">NILL</p>
     <div className="flex justify-between lg:w-32 w-3/6" >
     <p className="text-white font-bold text-xl" >منو</p>
     <div>
