@@ -1,5 +1,7 @@
 import NewCommentsForm from "./Components/NewCommentsForm/NewCommentsForm";
-import NewProjectForm from "./Components/NewProjectForm/NewProjectForm";
+
+import NewProjectForm from "../../Pages/NewProjectForm/NewProjectForm";
+
 
 function About(){
     return (

@@ -1,6 +1,6 @@
 
 import images from "../../Importer/Importer";
-
+import NewProject from "../NewProject/NewProject";
 function Home(){
     return (
      <>
@@ -8,6 +8,7 @@ function Home(){
 
 
 </div> 
+<NewProject />
      </>
     )
 }

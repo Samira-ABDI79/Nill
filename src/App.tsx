@@ -9,6 +9,7 @@ Work,
 Post,
 Teammate,
 	NotFound,
+	NewProjectForm
 } from './Pages';
 
 import {MainLayout} from './Layouts'
@@ -32,6 +33,8 @@ function App() {
 							<Route path='/work' element={<Work />} />
 							<Route path='/blog' element={<Blog />} />
 							<Route path='/teammate' element={<Teammate />} />
+							<Route path='/new-project-form' element={<NewProjectForm />} />
+
 
 
 						
