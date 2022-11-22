@@ -1,12 +1,12 @@
 import images from "src/Importer/Importer"
 
-export const UserData=[
+export const TeammateData=[
     {
         id:"",
         name:"پیمان",
         family:"کلانی",
         email:"peymandesign1379@gmail.com",
-        profile:`${images['User/3.png']}`,
+        profile:`${images['Teammate/Rectangle 8.png']}`,
         phoneNumber:"0933 389 3879",
         location:"Semnan province",
         linkdin:"Peyman Kalani",
@@ -90,7 +90,27 @@ export const UserData=[
                 id:18,
                     text:"Problem Solving"}
         ],
+     
         about:"لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از  طراحان گرافیک است . چاپگر ها و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است و برای شرایط فعلی تکنولوژی نمورد نیاز است "
 
     }
+]
+
+export const favorites=[
+    {
+        id:1,
+        image1:`${images['Teammate/1.png']}`,
+      },
+      {
+        id:2,
+        image2:`${images['Teammate/2.png']}`,
+      },
+      {
+        id:3,
+        image3:`${images['Teammate/3.png']}`,
+      },
+      {
+        id:4,
+        image4:`${images['Teammate/4.png']}`,
+      },
 ]

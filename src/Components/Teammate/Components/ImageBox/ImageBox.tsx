@@ -1,9 +1,9 @@
 
 import { useState } from "react";
-import {UserData} from "../../data"
+import {TeammateData} from "../../data"
 
 function ImageBox(){
-  const [userData,setUserData]=useState(UserData);
+  const [userData,setUserData]=useState(TeammateData);
  
   
 
@@ -12,7 +12,7 @@ function ImageBox(){
          {userData.map((item) => (
         <div className="bg-dark ">
 
-            <img src={item.profile} alt={item.name+item.family} />
+            <img src={item.profile} alt={item.name+item.family} className="w-full" />
             <div className="px-10">
                 <p className="font-bold text-center text-3xl lg:text-2xl mt-10">CONTACT</p>
                 <div className="">
@@ -23,7 +23,7 @@ function ImageBox(){
                     </div>
                     <div className="flex justify-between mt-8">
                         <div><svg className="h-8 w-8 text-red-500"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <rect x="3" y="5" width="18" height="14" rx="2" />  <polyline points="3 7 12 13 21 7" /></svg></div>
-                        <p className="ml-2 lg:text-base text-xl ">{item.email}</p>
+                        <p className="pl-2 lg:text-base text-xl ">{item.email}</p>
                     
                     </div>
                     
@@ -82,9 +82,9 @@ function ImageBox(){
             <div className="px-10">
                 <p className="font-bold text-center text-3xl lg:text-2xl mt-10">SKILLS</p>
             
-               <ul className="list-disc">
+               <ul className="list-disc py-5 flex  flex-wrap justify-between ">
                {item.skils.map((skill) => (
-                    <li className="lg:text-base text-xl">{skill.text}</li>
+                    <li className="lg:text-base text-xl w-3/6 ">{skill.text}</li>
 
                 ))}
 

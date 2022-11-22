@@ -1,17 +1,17 @@
-import {UserData} from "../../data"
+import {TeammateData} from "../../data"
 import { useState } from "react";
 
 function UserText(){
-  const [userData,setUserData]=useState(UserData);
+  const [userData,setUserData]=useState(TeammateData);
 
     return (
         <>
         {userData.map((item) => (
-        <div className="bg-black border  border-r-yellow " dir="rtl">
-            <div className="flex items-center mb-16">
+        <div className="bg-black border  border-r-yellow border-l-black border-b-black border-t-black" dir="rtl">
+            <div className="flex items-center pb-16">
 <div className="h-[1px]  w-10 bg-yellow  "></div>
 
-                <p className="font-bold  text-4xl py-16 px-10">{item.name +" " + item.family}</p>
+                <p className="font-bold  text-4xl  px-10">{item.name +" " + item.family}</p>
                 </div>
                 <div className="flex items-center">
         <div className="h-[1px] bg-yellow w-16  "></div>
