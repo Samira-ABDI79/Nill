@@ -24,6 +24,8 @@ function App() {
 					<Route path='*' element={<NotFound />} />
 					<Route path='/menu' element={<Menu />} />
 				
+
+				
 						
 				
 						<Route element={<MainLayout />}>
