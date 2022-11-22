@@ -8,6 +8,8 @@ function Teammate (){
 
     return (
         <>
+       
+
       <div className="flex flex-col lg:flex-row justify-between container mt-16">
       <div>
        <ImageBox />

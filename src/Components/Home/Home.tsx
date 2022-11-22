@@ -4,9 +4,17 @@ import { Link } from "react-router-dom";
 import NewProject from "../NewProject/NewProject";
 import ClosedProjects from "../ClosedProjects/ClosedProjects";
 import EmployersComments from "./Components/EmployersComments/EmployersComments"
+import CustomBreadcrumbs from "../CustomBreadcrumbs/CustomBreadcrumbs";
 function Home(){
     return (
      <>
+            <CustomBreadcrumbs pageName="گرافیست  و طراح UX/UI" route=""/>
+            <CustomBreadcrumbs pageName="گرافیست  و طراح UX/UI" route=""/>
+            <CustomBreadcrumbs pageName="بلاگ" route="/blog"/>
+
+            <CustomBreadcrumbs pageName="پورتفولیو "  route="/work"/>
+
+
      <div className="container bg-white ">
      <div className="container flex flex-col lg:flex-row md:flex-row">
      <div>
