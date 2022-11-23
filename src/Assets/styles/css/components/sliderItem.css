@@ -1,0 +1,11 @@
+.slider-textarea {
+  font-family: "Kalameh";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 41px;
+  color: var(--light-color-2);
+}
+.bottom-65{
+    bottom: -65px;
+}

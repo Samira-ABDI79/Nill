@@ -1,0 +1,75 @@
+.bg-grey-blur {
+  background: rgba(31, 22, 22, 0.7);
+  backdrop-filter: blur(6.5px);
+  right: 70px;
+  height: -webkit-fill-available;
+  width: 600px;
+}
+
+.blur-text-head {
+  font-family: "Kalameh";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 60px;
+  color: var(--light-color-2);
+  padding-left: 66px;
+  padding-right: 66px;
+}
+.blur-text-body {
+  font-family: "Shabnam";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: justify;
+  padding-left: 66px;
+  padding-right: 66px;
+
+  color: var(--txt-light-color);
+}
+.about-nill-head {
+  font-family: "Kalameh";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 111px;
+  color: var(--light-color-2);
+}
+
+.about-nill-text {
+  font-family: "Shabnam";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  color: var(--txt-light-color);
+}
+.form-box-head{
+  font-family: 'Kalameh';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 34px;
+
+}
+
+
+hr.about{
+  height: 0;
+  color: inherit;
+  border-top-width: 1px;
+  width: 90%;
+  margin: auto !important;
+}
+label{
+  font-family: 'Kalameh';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+}

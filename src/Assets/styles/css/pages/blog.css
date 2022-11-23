@@ -1,0 +1,23 @@
+.blog-head-text {
+  font-family: "Kalameh";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 41px;
+  color: var(--light-color-2);
+}
+hr.custom-hr {
+  border-color: var(--light-grey-border-color);
+  width: auto;
+}
+
+.blog-txt {
+  font-family: "Shabnam";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: justify;
+  color: var(--txt-light-color);
+}
+

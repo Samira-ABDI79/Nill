@@ -5,17 +5,19 @@ import NewProject from "../NewProject/NewProject";
 import ClosedProjects from "../ClosedProjects/ClosedProjects";
 import EmployersComments from "./Components/EmployersComments/EmployersComments"
 import CustomBreadcrumbs from "../CustomBreadcrumbs/CustomBreadcrumbs";
+import ProgressBar from "./Components/ProgressBar/ProgressBar";
+
 function Home(){
     return (
      <>
-            <CustomBreadcrumbs pageName="گرافیست  و طراح UX/UI" route=""/>
+            {/* <CustomBreadcrumbs pageName="گرافیست  و طراح UX/UI" route=""/>
             <CustomBreadcrumbs pageName="گرافیست  و طراح UX/UI" route=""/>
             <CustomBreadcrumbs pageName="بلاگ" route="/blog"/>
 
-            <CustomBreadcrumbs pageName="پورتفولیو "  route="/work"/>
+            <CustomBreadcrumbs pageName="پورتفولیو "  route="/work"/> */}
 
 
-     <div className="container bg-white ">
+     <div className="w-screen bg-white ">
      <div className="container flex flex-col lg:flex-row md:flex-row">
      <div>
          <img src={images['Home/Rectangle 57.png']} alt="طراحی ست اداری" className="w-3/12 float-right" />
@@ -41,7 +43,7 @@ function Home(){
 
      {/* ********* finish firset component ---texst's and image's */}
 
-     <div className="container bg-black ">
+     <div className="w-screen bg-black ">
          <div className="">
          <div className="container  flex flex-col lg:flex-row md:flex-row mt-10 justify-between">
      <div>
@@ -69,13 +71,9 @@ function Home(){
 
 {/* ************************* */}
 
-<div className="container bg-white ">
-     <div className="container flex flex-col lg:flex-row md:flex-row">
-    <div> </div>
-     </div>
-     </div>
 
-     <EmployersComments />
+     {/* <EmployersComments /> */}
+     <ProgressBar />
      <ClosedProjects />
 <NewProject />
      </>

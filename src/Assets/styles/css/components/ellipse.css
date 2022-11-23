@@ -1,0 +1,16 @@
+.light-theme-txt {
+  font-family: "Shabnam";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 27px;
+  color: var(--light-color-2);
+}
+.dark-theme-txt {
+  font-family: "Shabnam";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 27px;
+  color: var(--dark-color);
+}

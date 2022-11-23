@@ -1,0 +1,28 @@
+.contactSlider-p {
+  font-family: "Shabnam";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: var(--light-color-2);
+  padding-top: 20px;
+}
+.pr-17 {
+  padding-right: 17px;
+}
+.contact-item-style {
+  background: var(--blue-light-bg-color);
+  backdrop-filter: blur(6.5px);
+  padding: 34px 42px;
+  width: 544px;
+}
+.contact-item-style-dark {
+  background: rgba(92, 89, 89, 0.26);
+  backdrop-filter: blur(6.5px);
+  padding: 34px 42px;
+  width: 544px;
+}
+.top-11{
+    top: 11px;
+}

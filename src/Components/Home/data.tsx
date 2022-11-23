@@ -20,3 +20,39 @@ export const EmployersCommentsData=[
     },
 
 ]
+
+export const ProgressBarData=[
+    {
+        id:1,
+        load:70,
+        title:"Nordea",
+
+    },
+    {
+        id:2,
+        load:90,
+        title:"transit",
+
+    },  {
+        id:3,
+        load:35,
+        title:"AliBaba",
+
+    },  {
+        id:4,
+        load:50,
+        title:"FlyEmirates",
+
+    },  {
+        id:5,
+        load:80,
+        title:"Zoomit",
+
+    },  {
+        id:6,
+        load:95,
+        title:"Digi Kala",
+
+    },
+
+]
