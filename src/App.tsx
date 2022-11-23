@@ -13,6 +13,7 @@ Teammate,
 } from './Pages';
 
 import {MainLayout} from './Layouts'
+import About2 from './Components/About2/About2';
 
 
 
@@ -23,6 +24,9 @@ function App() {
 				<ScrollToTop>
 					<Routes>
 					<Route path='*' element={<NotFound />} />
+					<Route path='/about2' element={<About2 />} />
+
+					
 			
 					
 

@@ -6,7 +6,7 @@ function NewCommentsForm(){
         <>
 <div className="px-10 py-8 bg-dark lg:pb-40 ">
 <p className="font-normal mt-12  text-xl  text-center mb-6" dir="rtl">ثبت نظر</p>
-<div className="h-1 w-full bg-yellow text-yellow "></div>
+<div className="h-[1px] w-full bg-yellow text-yellow "></div>
 <form className="mb-12">
     <div className="flex flex-col" dir="rtl">
     <div className="mt-10 flex ">
