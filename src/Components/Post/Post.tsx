@@ -3,6 +3,7 @@ import NewProject from "../NewProject/NewProject";
 import TagGenerator from "./Components/TagGenerator"
 import ChatComments from "./Components/ChatComments";
 import images from "src/Importer/Importer";
+import SliderItems from "../SliderItems/SliderItems";
 function Post (){
     return (
         <>
@@ -159,6 +160,10 @@ function Post (){
                 </div>
               </div>
             </div>
+            
+
+            <SliderItems imageSource={images["Post/Rectangle 69.png"]}
+slidertxt="Andre Park"/>
 <NewProject />
 
         </>
