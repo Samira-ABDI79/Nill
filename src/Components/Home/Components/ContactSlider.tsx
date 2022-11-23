@@ -1,6 +1,6 @@
 import React from 'react';
 
-import images from "../../Importer/Importer";
+import images from "../../../Importer/Importer";
 
 interface IContactSlider{
     profileName: string;

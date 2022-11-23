@@ -1,6 +1,6 @@
-import images from "../../Importer/Importer";
+import images from "../../../Importer/Importer";
 
-import Button from "../../Components/Button/Button"
+import Button from "../../Button/Button"
 interface ISliderItemType{
     imageSource: string;
     slidertxt: string;

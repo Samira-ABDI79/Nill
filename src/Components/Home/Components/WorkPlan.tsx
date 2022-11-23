@@ -1,5 +1,5 @@
 
-import images from "../../Importer/Importer";
+import images from "../../../Importer/Importer";
 
 import "../../Assets/styles/css/components/workPlan.css"
 

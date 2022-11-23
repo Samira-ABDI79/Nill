@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ScrollToTop } from './Components';
-import Home2 from './Pages/home2/Home';
+
 import {
 	About,
 	Home,
@@ -23,7 +23,7 @@ function App() {
 					<Routes>
 					<Route path='*' element={<NotFound />} />
 				
-					<Route path='/home2' element={<Home2 />} />
+					
 
 				
 
