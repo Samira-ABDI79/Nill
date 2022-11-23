@@ -4,7 +4,7 @@ interface TagType {
 }
 const TagGenerator = (props: TagType) => {
   return (
-    <div className="yellowTagStyle animation">
+    <div className="border-yellow border px-4 py-2">
       <a href={props.linkAddress} className="btn-tag-style animation">
         {props.linkElement}
       </a>

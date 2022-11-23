@@ -9,10 +9,10 @@ function Post (){
          <div className="relative">
         <img src={images["Post/Rectangle 62.png"]} alt="" className="z-40" />
       </div>
-      <section className="dark-section pt-10 pb-10">
+      <section className="dark-section pt-10 pb-10" dir="rtl">
         <div className="container mx-auto">
-          <p className="light-header-text">Graphic Design, December 04, 2022</p>
-          <p  >طراحی ست اداری شرکت hydeout</p>
+          <p className="text-slate-300 text-sm mt-8 mb-4">Graphic Design, December 04, 2022</p>
+          <p className="text-5xl font-bold" >طراحی ست اداری شرکت hydeout</p>
 
           <div className="flex flex-row pt-5">
             <div className="pl-2">
@@ -22,7 +22,7 @@ function Post (){
                 linkElement="Adobe Indesign"
               />
             </div>
-            <div className="pl-2">
+            <div className="pl-2 " >
               {" "}
               <TagGenerator
                 linkAddress="www.p30download.com"
@@ -38,8 +38,8 @@ function Post (){
             </div>
           </div>
 
-          <div className="pt-20">
-            <p className="text-justify ml-6 mr-6 light-post-txt">
+          <div className="pt-20" >
+            <p className="text-justify ml-6 text-xl mr-6 light-post-txt">
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
               استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
               در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
@@ -62,7 +62,7 @@ function Post (){
             </div>
 
             <div className="pt-20">
-              <p className="text-justify ml-6 mr-6 light-post-txt">
+              <p className="text-justify ml-6 text-xl mr-6 light-post-txt">
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
                 استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
                 در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
@@ -80,12 +80,12 @@ function Post (){
             <div className="pt-20 relative">
               <div className="absolute">
                 <img
-                  src={images["icons/RedVerticalLine.svg"]}
+                  src={images["Icons/RedVerticalLine.svg"]}
                   className="pr-8"
                   alt=""
                 />
               </div>
-              <p className="text-justify ml-6 mr-16 special-txt pr-8">
+              <p className="text-justify ml-6 text-xl mr-16 special-txt text-yellow pr-8">
                 ’’ لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
                 با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و
                 مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
@@ -112,7 +112,7 @@ function Post (){
             </div></div>
             </section>
             {/* ------------------------------- */}
-            <div className="pr-8 pl-8 pt-20">
+            <div className="pr-8 pl-8 pt-20 container" dir="rtl">
               <ChatComments
                 comment="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
 "
@@ -121,15 +121,15 @@ function Post (){
                 username="Andre Park"
               />
               <div className="pt-5">
-                <div className="grid grid-cols-3 gap-1">
-                  <div className="contents">
+                <div className="grid lg:grid-cols-10 grid-cols-4 gap-2">
+                  <div className="contents col-span-1">
                     <img
-                      src={images["icons/SpecialReply.svg"]}
-                      className="pr-8 m-auto"
+                      src={images["Icons/SpecialReply.svg"]}
+                      className="pr-8 m-auto "
                       alt=""
                     />
                   </div>
-                  <div className="col-span-2 ...">
+                  <div className="lg:col-span-9 col-span-3">
                     <ChatComments
                       comment="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
 "

@@ -9,8 +9,8 @@ interface ChatCommentType {
 const ChatComments = (props: ChatCommentType) => {
   if (props.liked) {
     return (
-      <div className={`bg-grey p-7 ${props.className}`}>
-        <div className="flex flex-row pb-7">
+      <div className={`bg-dark p-7 container ${props.className}`}>
+        <div className="flex flex-row pb-7 bg-dark">
           <img src={images["Profiles/profile_1.png"]} alt="" />
           <div className="flex flex-col pr-5 justify-center ">
             <p className="head-comment-name">{props.username}</p>
@@ -26,13 +26,13 @@ const ChatComments = (props: ChatCommentType) => {
             alt="like icon"
             className="pr-6"
           />
-          <img src={images["Icons/Reply.svg"]} alt="reply icon" />
+          <img src={images["Icons/Reply.svg"]} alt="reply icon" className=""/>
         </div>
       </div>
     );
   } else {
     return (
-      <div className={`bg-grey p-7 ${props.className}`}>
+      <div className={`bg-grey p-7 bg-dark ${props.className}`}>
         <div className="flex flex-row pb-7">
           <img src={images["Profiles/profile_1.png"]} alt="" />
           <div className="flex flex-col pr-5 justify-center ">
