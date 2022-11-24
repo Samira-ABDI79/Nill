@@ -1,7 +1,7 @@
 
-import images from "../../../Importer/Importer";
+import images from "../../../../Importer/Importer";
 
-import "../../Assets/styles/css/components/workPlan.css"
+import "../../../../Assets/styles/css/components/workPlan.css"
 
 interface IWorkPlan{
     iconSource: string;
@@ -12,15 +12,15 @@ interface IWorkPlan{
 const WorkPlan = (props:IWorkPlan) => {
     return (
       <>
-        <div className="flex flex-col work-style">
+        <div className="flex flex-col work-style bg-white text-black ">
           <div className="pb-6">
             <img src={props.iconSource} alt={props.workHeader} />
           </div>
-          <div className="pb-5">
+          <div className="text-lg">
             <h6>{props.workHeader}</h6>
           </div>
           <div>
-            <p>{props.workParagraph}</p>
+            <p className="text-zinc-700">{props.workParagraph}</p>
           </div>
         </div>
       </>
