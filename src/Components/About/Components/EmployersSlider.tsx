@@ -1,13 +1,13 @@
 import React from 'react';
-import images from '../../Importer/Importer';
-interface IContactSlider{
+import images from '../../../Importer/Importer';
+interface IEmployersSlider{
     profileName: string;
     profileSource:string;
     sliderP: string;
     theme:string;
 }
 
-const ContactSlider = (props: IContactSlider) => {
+const EmployersSlider = (props: IEmployersSlider) => {
   if(props.theme === 'dark'){
     return (
       <>
@@ -33,7 +33,7 @@ const ContactSlider = (props: IContactSlider) => {
                 </div>
               </div>
               <div>
-                <p className="contactSlider-p">{props.sliderP}</p>
+                <p className="EmployersSlider-p">{props.sliderP}</p>
               </div>
             </div>
           </div>
@@ -65,7 +65,7 @@ const ContactSlider = (props: IContactSlider) => {
                 </div>
               </div>
               <div>
-                <p className="contactSlider-p">{props.sliderP}</p>
+                <p className="EmployersSlider-p">{props.sliderP}</p>
               </div>
             </div>
           </div>
@@ -76,4 +76,4 @@ const ContactSlider = (props: IContactSlider) => {
 
 };
 
-export default ContactSlider;
+export default EmployersSlider;
