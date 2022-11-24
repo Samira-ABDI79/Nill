@@ -53,51 +53,51 @@ function GalleryFilter() {
   }, [filter]);
   return (
     <>
-      <div className="portfolio__labels text-white text-center pb-20">
+      <div className="portfolio__labels  lg:text-center lg:pb-20 pb-10 flex flex-wrap lg:block">
         <a
-          className={`pl-9 pr-9 animation ${filter === "all" ? "activeda" : "filter-a-tag"}`}
+          className={`lg:pl-9 lg:pr-9 mt-2 lg:mt-0 w-28  animation ${filter === "all" ? "activeda" : "filter-a-tag"} ${filter === "all" ? "text-yellow" : "text-white"}`}
           
           onClick={() => setFilter("all")}
         >
           All
         </a>
         <a
-          className={`pl-9 pr-9 animation ${filter === "webdesign" ? "activeda" : "filter-a-tag"}`}
+          className={`lg:pl-9 lg:pr-9 mt-2 lg:mt-0 w-28  animation ${filter === "webdesign" ? "activeda" : "filter-a-tag"} ${filter === "webdesign" ? "text-yellow" : "text-white"}`}
           
           onClick={() => setFilter("webdesign")}
         >
           Web Design
         </a>
         <a
-          className={`pl-9 pr-9 animation ${filter === "ux-ui" ? "activeda" : "filter-a-tag"}`}
+          className={`lg:pl-9 lg:pr-9 mt-2 lg:mt-0 w-28  animation ${filter === "ux-ui" ? "activeda" : "filter-a-tag"} ${filter === "ux-ui" ? "text-yellow" : "text-white"}`}
           
           onClick={() => setFilter("ux-ui")}
         >
           Ui/UX
         </a>
         <a
-          className={`pl-9 pr-9 animation ${filter === "graphic" ? "activeda" : "filter-a-tag"}`}
+          className={`lg:pl-9 lg:pr-9 mt-2 lg:mt-0 w-28  animation ${filter === "graphic" ? "activeda" : "filter-a-tag"} ${filter === "graphic" ? "text-yellow" : "text-white"}`}
           
           onClick={() => setFilter("graphic")}
         >
           Graphic
         </a>
         <a
-          className={`pl-9 pr-9 animation ${filter === "3d" ? "activeda" : "filter-a-tag"}`}
+          className={`lg:pl-9 lg:pr-9 mt-2 lg:mt-0 w-28  animation ${filter === "3d" ? "activeda" : "filter-a-tag"} ${filter === "3d" ? "text-yellow" : "text-white"}`}
          
           onClick={() => setFilter("3d")}
         >
           3D
         </a>
         <a
-          className={`pl-9 pr-9 animation ${filter === "seo" ? "activeda" : "filter-a-tag"}`}
+          className={`lg:pl-9 lg:pr-9 mt-2 lg:mt-0 w-28  animation ${filter === "seo" ? "activeda" : "filter-a-tag"} ${filter === "seo" ? "text-yellow" : "text-white"}`}
          
           onClick={() => setFilter("seo")}
         >
           SEO
         </a>
       </div>
-      <div className="portfolio__container grid grid-cols-2 gap-4 animation">
+      <div className="portfolio__container grid lg:grid-cols-2 grid-cols-1 gap-4  animation">
         {projects.map((item, index) =>
           item.filtered === true ? (
             <div>
