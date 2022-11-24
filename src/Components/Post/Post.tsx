@@ -168,7 +168,7 @@ function Post (){
         </div>
 
         <div className="container">
-          <Slider />
+          <Slider type="Project"/>
         </div>
 <NewProject />
 

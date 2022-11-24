@@ -11,9 +11,9 @@ const SliderItems = (props: ISliderItemType) => {
   return (
     <>
       <div className="flex flex-col" dir="rtl">
-        <img src={props.imageSource} alt={props.slidertxt} className="w-full"/>
+        <img src={props.imageSource} alt={props.slidertxt} className="w-full h-80"/>
      
-           <div className=" flex blueButton py-4 px-2  items-center justify-between w-4/5 -mt-6">
+           <div className=" flex blueButton py-4 px-2  items-center justify-between w-4/5 -mt-7 h-16">
                 <button className="font-bold"><Link to={props.route}>{props.slidertxt}</Link></button>
        <div>
      

@@ -1,13 +1,18 @@
-// Import Swiper React components
+
 import { Swiper, SwiperSlide } from 'swiper/react';
-import images from 'src/Importer/Importer';
+import {BlogsData} from "../Blog/data"
 import SliderItems from '../SliderItems/SliderItems';
 import { useState } from "react";
 
 import 'swiper/css';
 import {lastProject} from "../../Services/Data/data"
-const Slider=() => {
-  const [item] = useState(lastProject);
+
+interface input{
+  type:string;
+}
+const Slider=(props:input) => {
+  const SliderData = (props.type=="Blog") ? BlogsData : lastProject
+  const [item] = useState(SliderData);
 
   return (
     <Swiper

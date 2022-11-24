@@ -76,8 +76,17 @@ function Home(){
         </div>
 
         <div className="container">
-          <Slider />
+          <Slider type="Project"/>
         </div>
+        <div className="container" dir="rtl">
+        <CustomBreadcrumbs pageName="بلاگ" route="/blog"/>
+        <p className="font-bold text-3xl pr-8">اخبار و مقالات</p>
+        </div>
+
+        <div className="container">
+          <Slider type="Blog"/>
+        </div>
+
 
      {/* <EmployersComments /> */}
      <ProgressBar />
