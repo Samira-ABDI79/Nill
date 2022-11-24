@@ -17,6 +17,7 @@ import About2 from './Components/About2/About2';
 
 
 
+
 function App() {
 	return (
 		<>
@@ -25,6 +26,7 @@ function App() {
 					<Routes>
 					<Route path='*' element={<NotFound />} />
 					<Route path='/about2' element={<About2 />} />
+				
 
 					
 			

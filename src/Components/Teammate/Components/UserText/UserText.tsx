@@ -8,8 +8,8 @@ function UserText(){
         <>
         {userData.map((item) => (
         <div className="bg-black border  border-r-yellow border-l-black border-b-black border-t-black" dir="rtl">
-            <div className="flex items-center pb-16">
-<div className="h-[1px]  w-10 bg-yellow  "></div>
+            <div className="flex items-center pb-16 lg:-mt-6 lg:-mr-[1px]">
+<div className="h-[1px]  w-10 bg-yellow  hidden lg:inline-block"></div>
 
                 <p className="font-bold  text-4xl  px-10">{item.name +" " + item.family}</p>
                 </div>
@@ -85,10 +85,10 @@ function UserText(){
        
   
 
-<div className="flex items-center mb-16">
-<div className="h-[1px]  w-16 bg-white  "></div>
+<div className="flex items-center  lg:-mb-5 ">
+<div className="h-[1px]  w-16 bg-yellow  hidden lg:inline-block"></div>
 
-<button className="bg-blue  text-white   hover:opacity-75  px-12 font-semibold py-2 flex justify-center items-center">
+<button className="bg-blue  text-white   hover:opacity-75  lg:px-12 px-8 font-semibold py-2 flex justify-center items-center mr-16 lg:mr-0">
   دانلود رزومه 
   </button>
 </div>
