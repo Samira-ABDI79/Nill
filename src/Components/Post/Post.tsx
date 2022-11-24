@@ -4,6 +4,8 @@ import TagGenerator from "./Components/TagGenerator"
 import ChatComments from "./Components/ChatComments";
 import images from "src/Importer/Importer";
 import SliderItems from "../SliderItems/SliderItems";
+import Slider from "../Slider/Slider";
+import CustomBreadcrumbs from "../CustomBreadcrumbs/CustomBreadcrumbs";
 function Post (){
     return (
         <>
@@ -82,7 +84,7 @@ function Post (){
               <div className="absolute">
                 <img
                   src={images["Icons/RedVerticalLine.svg"]}
-                  className="pr-8"
+                  className="pr-8 "
                   alt=""
                 />
               </div>
@@ -160,10 +162,14 @@ function Post (){
                 </div>
               </div>
             </div>
-            
+            <div className="container" dir="rtl">
+        <CustomBreadcrumbs pageName="پورتفولیو" route=""/>
+        <p className="font-bold text-3xl pr-8">پروژه های اخیر</p>
+        </div>
 
-            <SliderItems imageSource={images["Post/Rectangle 69.png"]}
-slidertxt="Andre Park"/>
+        <div className="container">
+          <Slider />
+        </div>
 <NewProject />
 
         </>

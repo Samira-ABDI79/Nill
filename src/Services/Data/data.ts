@@ -110,3 +110,31 @@ export const ClosedProjectsData=[
     src:`${images['ClosedProjects/2.jpg']}`,
   },
 ]
+
+export const lastProject=[
+  {
+    id:1,
+    title:"طراحی پک آموزشی NFT",
+    route:"",
+    image:`${images['Project/Rectangle 58.png']}`,
+  },
+  {
+    id:2,
+    title:" طراحی Low Poly  زومجی",
+    route:"",
+    image:`${images['Project/Project_1.png']}`,
+  },
+  {
+    id:3,
+    title:"طراحی UI/UX  شرکت Rainbow",
+    route:"",
+    image:`${images['Project/Project_2.png']}`,
+  },
+  {
+    id:4,
+    title:"طراحی",
+    route:"",
+    image:`${images['Project/Project_3.png']}`,
+  }
+
+]

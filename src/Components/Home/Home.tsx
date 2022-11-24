@@ -6,7 +6,7 @@ import ClosedProjects from "../ClosedProjects/ClosedProjects";
 import EmployersComments from "./Components/EmployersComments/EmployersComments"
 import CustomBreadcrumbs from "../CustomBreadcrumbs/CustomBreadcrumbs";
 import ProgressBar from "./Components/ProgressBar/ProgressBar";
-
+import Slider from "../Slider/Slider";
 function Home(){
     return (
      <>
@@ -70,7 +70,14 @@ function Home(){
      </div>
 
 {/* ************************* */}
+<div className="container" dir="rtl">
+        <CustomBreadcrumbs pageName="پورتفولیو" route=""/>
+        <p className="font-bold text-3xl pr-8">پروژه های اخیر</p>
+        </div>
 
+        <div className="container">
+          <Slider />
+        </div>
 
      {/* <EmployersComments /> */}
      <ProgressBar />
