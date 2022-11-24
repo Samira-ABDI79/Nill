@@ -9,7 +9,7 @@ const SliderItems = (props: ISliderItemType) => {
   return (
     <>
       <div className="" dir="rtl">
-        <img src={props.imageSource} alt={props.slidertxt} className="w-52"/>
+        <img src={props.imageSource} alt={props.slidertxt} className=""/>
      
            <div className=" flex blueButton py-3 px-2 w-32 items-center justify-between">
                 <button className="">{props.slidertxt}</button>
