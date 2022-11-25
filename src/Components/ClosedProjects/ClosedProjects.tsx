@@ -8,10 +8,7 @@ function ClosedProjects(){
     return (
         <>
       
-<div className="container lg:pr-52 ">
 
-
-</div>
       <div className="container  lg:px-50 flex justify-center items-center py-12 ">
     <div className="flex flex-wrap  lg:pl-32 ">
     {item.map((item) => (

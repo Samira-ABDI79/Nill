@@ -5,27 +5,40 @@ import ClosedProjects from "../../Components/ClosedProjects/ClosedProjects";
 import CustomBreadcrumbs from "../CustomBreadcrumbs/CustomBreadcrumbs";
 import EmployersComments from "../Home/Components/EmployersComments";
 import Members from "./Components/Members";
-import OurServices from "./Components/OurServices/OurServices";
+import OurServices from "./Components/OurServices";
 function About(){
     return (
         <>
-        {/* <div className="container px-20">
-            <h1 className="font-bold lg:text-3xl text-4xl" dir="rtl"> شرکت طراحی Nill Developers</h1>
-            <p className="font-bold lg:text-xl text-2xl" dir="rtl"> لومرم ایپسوم با تولید سادگی نامفهوم از صنعت چاپ ، و با استفاده از طراحان گرافیک است . چاپگر ها و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است ، و برای شرایط فعلی تکنولوژی مورد نیاز و کاربرد های متنوع با هدف بهبود ابزار های کاربردی می باشد. </p>
+        <div className="container lg:px-20" dir="rtl">
+            <h1 className="font-bold text-3xl " > شرکت طراحی Nill Developers</h1>
+            <p className="text-lg mt-10" > لومرم ایپسوم با تولید سادگی نامفهوم از صنعت چاپ ، و با استفاده از طراحان گرافیک است . چاپگر ها و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است ، و برای شرایط فعلی تکنولوژی مورد نیاز و کاربرد های متنوع با هدف بهبود ابزار های کاربردی می باشد. </p>
 
 
         </div>
-     <div dir="rtl">
+<div className="flex justify-center items-center mt-10">
+<img src={images["Icons/ScrollDwn.svg"]} alt="ScrollDwn" />
+
+</div>
+    <div dir="rtl" className="mt-10">
           
        <img src={images["About/image1.png"]} alt="about" className="w-screen lg:h-96 " />
 
 <div className="lg:w-1/3 w-full lg:bg-blue h-96 flex justify-center items-center px-10 lg:-mt-96 ">
-<p className="font-bold lg:text-xl text-2xl" dir="rtl"> لومرم ایپسوم با تولید سادگی نامفهوم از صنعت چاپ ، و با استفاده از طراحان گرافیک است . چاپگر ها و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است ، و برای شرایط فعلی تکنولوژی مورد نیاز و کاربرد های متنوع با هدف بهبود ابزار های کاربردی می باشد. </p>
+   <div>
+   <h1 className="font-bold text-3xl " > گستره فعالیت گروه ما</h1>
+           
+           <p className="text-lg mt-10" > لومرم ایپسوم با تولید سادگی نامفهوم از صنعت چاپ ، و با استفاده از طراحان گرافیک است . چاپگر ها و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است ، و برای شرایط فعلی تکنولوژی مورد نیاز و کاربرد های متنوع با هدف بهبود ابزار های کاربردی می باشد. </p>
 
+   </div>
 </div>
      </div>
-      */}
+    
 {/* *********************start OurServices */}
+<div className="container ">
+<CustomBreadcrumbs pageName="خدمات ما " route="" />
+<p className="font-bold text-3xl pr-8"dir="rtl">خدمات جدید طراحی گرافیک </p>
+
+</div>
 <OurServices />
 
 {/* *********************start Members */}
@@ -63,16 +76,18 @@ function About(){
         <CustomBreadcrumbs pageName="ارتباط با ما" route=""/>
         <p className="font-bold text-3xl pr-8">ثبت نظر یا  پروژه جدید</p>
         </div>
-        <div className="container">
-        <div className="flex   flex-col lg:flex-row md:flex-row lg:my-12 md:my:12 ">
-             <div className="lg:w-[100%] lg:mr-10 md:mr-10 my-12 lg:my-0  md:my-0">
+       <div className="container mt-10">
+     
+        <div className="grid lg:grid-cols-2 lg:grid-rows-1  lg:gap-2 grid-cols-1 grid-rows-2  gap-4">
+             <div className="lg:row-span-1 ">
              <NewProjectForm/>
              </div>
-             <div className="lg:w-[100%] my-12 lg:my-0 md:my-0">
+             <div className="lg:row-span-1">
               <NewCommentsForm  />
               </div>
-              </div>
+          
         </div>
+       </div>
         </>
     )
 }
