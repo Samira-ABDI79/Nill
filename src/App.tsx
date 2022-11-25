@@ -12,7 +12,8 @@ Teammate,
 	NewProjectForm
 } from './Pages';
 
-import {MainLayout} from './Layouts'
+import {MainLayout } from './Layouts'
+import HomeLayout from './Layouts/HomeLayout';
 
 
 
@@ -27,10 +28,13 @@ function App() {
 				<ScrollToTop>
 					<Routes>
 					<Route path='*' element={<NotFound />} />
-				
+					<Route element={<HomeLayout />}>
+						<Route path='/' element={<Home />} />
+						
+          </Route>
 
 						<Route element={<MainLayout />}>
-						<Route path='/' element={<Home />} />
+					
 							<Route path='/about' element={<About />} />
 							<Route path='/post' element={<Post />} />
 							<Route path='/work' element={<Work />} />

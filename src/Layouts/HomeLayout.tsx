@@ -3,17 +3,17 @@ import { Outlet } from "react-router-dom";
 
 import Footer from "./Footer";
 import Drawer from "./Drawer";
-import Navbar from "./Navbar";
+import HomeNavbar from "./HomeNavbar";
 
-function MainLayout() {
+function HomeLayout() {
   return (
     <>
-      <Navbar />
-      <Drawer flag={false} />
+      <HomeNavbar />
+      <Drawer flag={true}/>
       <Outlet />
       <Footer />
     </>
   );
 }
 
-export default MainLayout;
+export default HomeLayout;

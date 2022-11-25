@@ -34,11 +34,7 @@ export const navbarItems = [
 // ------------------------- start menu data ---------------
 export const menuItems = [
   
-  {
-    id: 1,
-    name: "Home",
-    route: "/about",
-  },
+  
   {
     id: 2,
     name: "Blog",

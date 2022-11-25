@@ -9,8 +9,8 @@ import CustomBreadcrumbs from "../CustomBreadcrumbs/CustomBreadcrumbs";
 function Post (){
     return (
         <>
-         <div className="relative">
-        <img src={images["Post/Rectangle 62.png"]} alt="" className="z-40" />
+         <div className="">
+        <img src={images["Post/Rectangle 62.png"]} alt="" className="" />
       </div>
       <section className="dark-section pt-10 pb-10" dir="rtl">
         <div className="container mx-auto">
