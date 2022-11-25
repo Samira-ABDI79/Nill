@@ -74,9 +74,15 @@ function Home(){
      </div>
 
 {/* ************************* start WorkPlan */} 
-<div className="bg-white w-screen flex justify-center items-center">
-<div className="py-24  bg-pink w-4/6 container">
-<div className="grid gap-2 grid-cols-3 grid-rows-1 ">
+ <div className="bg-white">
+<div className="container lg:pr-32 ">
+<CustomBreadcrumbs pageName="خدمات ما " route="" />
+  <p className="font-bold text-3xl lg:pr-2 pr-4  text-black"dir="rtl">زمینه های کاری ما </p>
+
+</div>
+  <div className="bg-white w-screen flex justify-center items-center">
+<div className="py-24   w-4/6 container">
+<div className="grid gap-2 lg:grid-cols-3 grid-cols-1 lg:grid-rows-1  ">
   <div className="col-span-1 ">
   <WorkPlan 
 iconSource={images['Icons/AR.svg']}
@@ -105,8 +111,11 @@ workParagraph={defaulttext}
 </div>
 </div>
 </div>
-{/* ************************* end start WorkPlan */}
+</div>
 
+ 
+
+{/* ************************* end start WorkPlan */}
 
 <div className="container" dir="rtl">
         <CustomBreadcrumbs pageName="پورتفولیو" route=""/>
@@ -116,7 +125,21 @@ workParagraph={defaulttext}
         <div className="container">
           <Slider type="Project"/>
         </div>
-        <div className="container" dir="rtl">
+     
+
+{/* ********************************start  EmployersComments */}
+<div className="w-screen -my-1 bg-white">
+<div className="container lg:pr-32">
+<CustomBreadcrumbs pageName="پروژه ها " route="" />
+<p className="font-bold text-3xl lg:pr-2 pr-4  text-black"dir="rtl">نظرات کارفرمایان </p>
+
+</div>
+</div>
+<EmployersComments  type="blue"/>
+ 
+
+{/* ********************************end  EmployersComments */}
+       <div className="container" dir="rtl">
         <CustomBreadcrumbs pageName="بلاگ" route="/blog"/>
         <p className="font-bold text-3xl pr-8">اخبار و مقالات</p>
         </div>
@@ -125,10 +148,27 @@ workParagraph={defaulttext}
           <Slider type="Blog"/>
         </div>
 
+{/* ********************************start  ProgressBar */}
 
-     {/* <EmployersComments /> */}
+<div className="w-screen -my-1 bg-white">
+<div className="container lg:pr-32">
+
+<p className="font-bold text-3xl lg:pr-2 pr-4  text-black"dir="rtl">پروژه های در حال انجام </p>
+
+</div>
+</div>
      <ProgressBar />
+{/* ********************************end  ProgressBar */}
+<div className="w-screen -my-1 bg-black">
+<div className="container lg:pr-32">
+
+<p className="font-bold text-3xl lg:pr-2 pr-4 mt-10 text-white"dir="rtl"> پروژه های  بسته شده </p>
+
+</div>
+</div>
      <ClosedProjects />
+
+
 <NewProject />
      </>
     )

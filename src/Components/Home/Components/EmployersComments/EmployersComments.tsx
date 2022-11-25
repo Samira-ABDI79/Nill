@@ -1,14 +1,38 @@
+import { Swiper, SwiperSlide } from 'swiper/react';
 import { useState } from "react";
+import images from 'src/Importer/Importer';
+import 'swiper/css';
+
+interface input{
+  type:string;
+}
 import {EmployersCommentsData} from "../../data"
-function EmployersComments(){
+function EmployersComments(props:input){
 const [item] = useState(EmployersCommentsData);
 
     return(
         <>
-      <div className="container">
-      <div className="flex container lg:flex-row md:flex-row flex-col ">
+      <div className=" bg-white w-screen ">
+      <div  className=" bg-white w-screen flex justify-center items-center">
+      <Swiper
+      spaceBetween={40}
+      slidesPerView={2}
+      
+      onSlideChange={() => console.log('slide change')}
+      onSwiper={(swiper) => console.log(swiper)}
+      className="py-24   w-4/6 container"
+    >
+          <div className=" ">
         {item.map((item) => (
-        <div className="p-10 bg-blue lg:w-1/2 mx-10 mt-10">
+           <SwiperSlide >
+           <img
+            className="w-4 h-4 relative z-10 right-12 top-3"
+            src={images["Icons/DoubleCoutYellow.svg"]}
+            alt=""
+          />
+           
+        <div className="p-10 bg-blue   ">
+      
             <div className="flex justify-end lg:flex-row md:flex-row flex-col-reverse">
                 
                 <div className="lg:mt-0 md:mt-0 mt-2">
@@ -47,8 +71,12 @@ const [item] = useState(EmployersCommentsData);
             </div>
             <p className="text-center mt-12 " dir="rtl">{item.text}</p>
         </div>
+             
+        </SwiperSlide>
             ))}
-        </div>
+            </div>
+          </Swiper>
+      </div>
       </div>
 
         </>

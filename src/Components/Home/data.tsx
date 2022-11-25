@@ -3,19 +3,33 @@ import images from "src/Importer/Importer"
 export const doProject=[
 
 ]
+const defaulttext =" لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از  طراحان گرافیک است . "
 
 export const EmployersCommentsData=[
     {
         id:1,
         src:`${images['User/1.png']}`,
         username:"Jessl Silva",
-        text:"منیتلمنت نتنیتن نت حخحخث تیبلت یقته نبتنقثت قثتصختخقت قثتصخثت نرتت ",
+        text:`${defaulttext}`
     },
     {
         id:2,
         src:`${images['User/2.png']}`,
         username:"Andre Park",
-        text:"منیتلمنت نتنیتن نت حخحخث تیبلت یقته نبتنقثت قثتصختخقت قثتصخثت نرتت ",
+        text:`${defaulttext}`
+
+    },
+    {
+        id:3,
+        src:`${images['User/4.png']}`,
+        username:"Jessl Silva",
+        text:`${defaulttext}`
+    },
+    {
+        id:2,
+        src:`${images['User/2.png']}`,
+        username:"Andre Park",
+        text:`${defaulttext}`
 
     },
 

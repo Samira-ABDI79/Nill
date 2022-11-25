@@ -11,7 +11,6 @@ const [item] = useState(ProgressBarData);
   return (
     <>
   <div className="w-screen bg-white py-20 lg:py-2">
-  <div className="progress-title text-black lg:mt-2 container lg:px-48"dir="rtl">پروژه های در حال انجام</div>
 
 
   <div className=" flex justify-center items-center container lg:px-48 py-6">

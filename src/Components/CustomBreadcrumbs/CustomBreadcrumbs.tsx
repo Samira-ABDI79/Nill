@@ -27,7 +27,7 @@ interface CustomBreadcrumbsProps {
         {/* <div className=" h-[10px]  w-[10px] bg-slate-300   rounded-full"></div>
             
         <div className="h-[1px]  w-10 bg-slate-300 "></div> */}
-        <div>
+        <div className="text-zinc-500">
                 <svg
                   width="56"
                   height="8"
@@ -47,7 +47,7 @@ interface CustomBreadcrumbsProps {
                 </svg>
               </div>
 
-        <p className="mr-2 text-slate-300 text-sm">
+        <p className="mr-2 text-zinc-500 text-sm">
           
            <Link to={props.route}> {props.pageName}</Link>
             </p>
