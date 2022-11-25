@@ -3,7 +3,7 @@ import images from "src/Importer/Importer";
 import NewProjectForm from "../../Pages/NewProjectForm/NewProjectForm";
 import ClosedProjects from "../../Components/ClosedProjects/ClosedProjects";
 import CustomBreadcrumbs from "../CustomBreadcrumbs/CustomBreadcrumbs";
-import EmployersComments from "../Home/Components/EmployersComments/EmployersComments";
+import EmployersComments from "../Home/Components/EmployersComments";
 import Members from "./Components/Members";
 import OurServices from "./Components/OurServices/OurServices";
 function About(){

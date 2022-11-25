@@ -1,7 +1,7 @@
 
 import images from 'src/Importer/Importer';
 
-import {EmployersCommentsData} from "../../data"
+import {EmployersCommentsData} from "../data"
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 

@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import {TeammateData} from "../../data"
+import {TeammateData} from "../data"
 import images from "src/Importer/Importer";
 function ImageBox(){
   const [userData,setUserData]=useState(TeammateData);

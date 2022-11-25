@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-import {doProject} from "../../data"
+import {doProject} from "../data"
 function ClosedProjects(){
     const [item] = useState(doProject);
 

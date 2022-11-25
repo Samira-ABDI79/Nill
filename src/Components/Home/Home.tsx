@@ -3,11 +3,11 @@ import images from "../../Importer/Importer";
 import { Link } from "react-router-dom";
 import NewProject from "../NewProject/NewProject";
 import ClosedProjects from "../ClosedProjects/ClosedProjects";
-import EmployersComments from "./Components/EmployersComments/EmployersComments"
+import EmployersComments from "./Components/EmployersComments"
 import CustomBreadcrumbs from "../CustomBreadcrumbs/CustomBreadcrumbs";
-import ProgressBar from "./Components/ProgressBar/ProgressBar";
+import ProgressBar from "./Components/ProgressBar";
 import Slider from "../Slider/Slider";
-import WorkPlan from "./Components/WorkPlan/WorkPlan";
+import WorkPlan from "./Components/WorkPlan";
 function Home(){
   const defaulttext =" لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از  طراحان گرافیک است . "
     return (

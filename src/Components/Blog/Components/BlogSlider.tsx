@@ -1,8 +1,8 @@
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import {BlogsData} from "../../data"
-import Article from "../Article/Article";
+import {BlogsData} from "../data"
+import Article from "./Article";
 import { useState } from "react";
 
 import 'swiper/css';

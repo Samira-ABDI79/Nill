@@ -1,4 +1,4 @@
-import {TeammateData} from "../../data"
+import {TeammateData} from "../data"
 import { useState } from "react";
 
 function UserText(){

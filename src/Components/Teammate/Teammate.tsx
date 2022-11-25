@@ -1,5 +1,5 @@
-import ImageBox from "./Components/ImageBox/ImageBox";
-import UserText from "./Components/UserText/UserText";
+import ImageBox from "./Components/ImageBox";
+import UserText from "./Components/UserText";
 import images from "src/Importer/Importer";
 
 

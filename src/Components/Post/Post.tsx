@@ -81,10 +81,10 @@ function Post (){
             </div>
 
             <div className="pt-20 relative">
-              <div className="absolute">
+              <div className="absolute  hidden lg:inline-block">
                 <img
                   src={images["Icons/RedVerticalLine.svg"]}
-                  className="pr-8 "
+                  className="mr-8 "
                   alt=""
                 />
               </div>

@@ -1,7 +1,7 @@
 
 import images from "src/Importer/Importer";
 
-import BlogSlider from "./Components/BlogSlider/BlogSlider";
+import BlogSlider from "./Components/BlogSlider";
 function Blog (){
  
 

@@ -1,7 +1,7 @@
 
 import { useState } from "react";
-import {ProgressBarData} from "../../data"
-import "../../../../Assets/styles/css/components/progress.css"
+import {ProgressBarData} from "../data"
+import "../../../Assets/styles/css/components/progress.css"
 const ProgressBar = () => {
 const [item] = useState(ProgressBarData);
 
