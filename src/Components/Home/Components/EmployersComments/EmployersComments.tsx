@@ -1,12 +1,22 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { useState } from "react";
+
 import images from 'src/Importer/Importer';
+
+import {EmployersCommentsData} from "../../data"
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+
+import { useState } from "react";
+
 import 'swiper/css';
+
 
 interface input{
   type:string;
 }
-import {EmployersCommentsData} from "../../data"
+import 'swiper/css/pagination';
+import SwiperCore,{Pagination} from "swiper"
+SwiperCore.use([Pagination])
+
 function EmployersComments(props:input){
 const [item] = useState(EmployersCommentsData);
 
@@ -17,6 +27,7 @@ const [item] = useState(EmployersCommentsData);
       <Swiper
       spaceBetween={40}
       slidesPerView={2}
+      pagination={{clickable:true}}
       breakpoints={{
         50:{
             slidesPerView:1,

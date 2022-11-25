@@ -4,9 +4,10 @@
     z-index: 1;
    
  
-    background-color: #386EFA;
-    /* background: rgba(76, 178, 236, 0.4); */
+   
+    background: rgba(56, 110, 250, 0.7);
+    backdrop-filter: blur(3.5px);
     
-    /* background-color: rgba(0,0,0,0.4); */
+   
    
 }
