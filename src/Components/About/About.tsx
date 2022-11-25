@@ -1,9 +1,11 @@
-import NewCommentsForm from "./Components/NewCommentsForm/NewCommentsForm";
+import NewCommentsForm from "./Components/NewCommentsForm";
 import images from "src/Importer/Importer";
 import NewProjectForm from "../../Pages/NewProjectForm/NewProjectForm";
 import ClosedProjects from "../../Components/ClosedProjects/ClosedProjects";
 import CustomBreadcrumbs from "../CustomBreadcrumbs/CustomBreadcrumbs";
 import EmployersComments from "../Home/Components/EmployersComments/EmployersComments";
+import Members from "./Components/Members";
+import OurServices from "./Components/OurServices/OurServices";
 function About(){
     return (
         <>
@@ -23,7 +25,20 @@ function About(){
 </div>
      </div>
       */}
+{/* *********************start OurServices */}
+<OurServices />
 
+{/* *********************start Members */}
+
+      <div className="container ">
+<CustomBreadcrumbs pageName="تیم ما" route="" />
+<p className="font-bold text-3xl pr-8"dir="rtl">اعضای گروه نیل</p>
+
+</div>
+<div className="container">
+<Members />
+</div>
+{/* *********************end Members */}
 <div className="container ">
 <CustomBreadcrumbs pageName="پروژه ها " route="" />
 <p className="font-bold text-3xl pr-8"dir="rtl">نظرات کارفرمایان </p>
@@ -31,11 +46,19 @@ function About(){
 </div>
 
 <EmployersComments  type="dark"/>
+
+{/* *********************end EmployersComments */}
+
+
+
 <div className="container" dir="rtl">
        
         <p className="font-bold text-3xl pr-8">پروژه های اخیر</p>
         </div>
      <ClosedProjects />
+
+{/* *********************end ClosedProjects */}
+
      <div className="container" dir="rtl">
         <CustomBreadcrumbs pageName="ارتباط با ما" route=""/>
         <p className="font-bold text-3xl pr-8">ثبت نظر یا  پروژه جدید</p>

@@ -136,3 +136,41 @@ export const lastProject=[
 ]
 
 
+export const memberData=[
+  {
+
+    id:1,
+    title:"member1",
+    src:`${images['Profiles/1.png']}`,
+  },
+  {
+
+    id:2,
+    title:"member2",
+    src:`${images['Profiles/profile_2.png']}`,
+  },
+  {
+
+    id:3,
+    title:"member3",
+    src:`${images['Profiles/Rectangle 7.png']}`,
+  },
+  {
+
+    id:4,
+    title:"member4",
+    src:`${images['Profiles/image.jpg']}`,
+  },
+  {
+
+    id:5,
+    title:"member5",
+    src:`${images['Profiles/image2.jpg']}`,
+  },
+  {
+
+    id:6,
+    title:"member6",
+    src:`${images['Profiles/image3.jpg']}`,
+  },
+]
