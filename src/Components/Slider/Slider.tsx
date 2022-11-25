@@ -22,6 +22,14 @@ const Slider=(props:input) => {
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
       className="my-10"
+           breakpoints={{
+          50:{
+              slidesPerView:1,
+          },
+          900:{
+            slidesPerView:3,
+        }
+      }}
     >
   {item.map((item) => (
 

@@ -17,7 +17,17 @@ const [item] = useState(EmployersCommentsData);
       <Swiper
       spaceBetween={40}
       slidesPerView={2}
-      
+      breakpoints={{
+        50:{
+            slidesPerView:1,
+        },
+        900:{
+          slidesPerView:1,
+      },
+      1000:{
+        slidesPerView:2,
+    }
+    }}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
       className="py-24   w-4/6 container"

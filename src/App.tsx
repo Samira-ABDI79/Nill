@@ -19,6 +19,7 @@ import {MainLayout} from './Layouts'
 
 
 
+
 function App() {
 	return (
 		<>
@@ -26,6 +27,8 @@ function App() {
 				<ScrollToTop>
 					<Routes>
 					<Route path='*' element={<NotFound />} />
+				
+
 						<Route element={<MainLayout />}>
 						<Route path='/' element={<Home />} />
 							<Route path='/about' element={<About />} />
