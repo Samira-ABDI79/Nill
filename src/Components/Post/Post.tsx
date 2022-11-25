@@ -15,24 +15,24 @@ function Post (){
       <section className="dark-section pt-10 pb-10" dir="rtl">
         <div className="container mx-auto">
           <p className="text-slate-300 text-sm mt-8 mb-4">Graphic Design, December 04, 2022</p>
-          <p className="text-5xl font-bold" >طراحی ست اداری شرکت hydeout</p>
+          <p className="lg:text-5xl text-3xl font-bold" >طراحی ست اداری شرکت hydeout</p>
 
-          <div className="flex flex-row pt-5">
-            <div className="pl-2">
+          <div className="flex lg:flex-row pt-5 flex-col">
+            <div className="pl-2 mt-2 lg:mt-0">
               {" "}
               <TagGenerator
                 linkAddress="www.p30download.com"
                 linkElement="Adobe Indesign"
               />
             </div>
-            <div className="pl-2 " >
+            <div className="pl-2 mt-2 lg:mt-0 " >
               {" "}
               <TagGenerator
                 linkAddress="www.p30download.com"
                 linkElement="Adobe Photoshop"
               />
             </div>
-            <div className="pl-2">
+            <div className="pl-2 mt-2 lg:mt-0">
               {" "}
               <TagGenerator
                 linkAddress="www.p30download.com"

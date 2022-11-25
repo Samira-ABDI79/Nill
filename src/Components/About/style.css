@@ -1,0 +1,20 @@
+.back {
+    
+   
+    z-index: 1;
+   
+ 
+   
+    background: rgba(91, 106, 145, 0.7);
+    backdrop-filter: blur(3.5px);
+    
+   
+   
+}
+
+@media screen and (max-width: 300px) {
+    .back {
+       background-color: white;  
+    }
+   
+  }

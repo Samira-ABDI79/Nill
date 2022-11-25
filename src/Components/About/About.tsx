@@ -6,6 +6,7 @@ import CustomBreadcrumbs from "../CustomBreadcrumbs/CustomBreadcrumbs";
 import EmployersComments from "../Home/Components/EmployersComments";
 import Members from "./Components/Members";
 import OurServices from "./Components/OurServices";
+import "./style.css"
 function About(){
     return (
         <>
@@ -23,7 +24,7 @@ function About(){
           
        <img src={images["About/image1.png"]} alt="about" className="w-screen lg:h-96 " />
 
-<div className="lg:w-1/3 w-full lg:bg-blue h-96 flex justify-center items-center px-10 lg:-mt-96 ">
+<div className="lg:w-1/3 w-full back h-96 flex justify-center items-center px-10 lg:-mt-96 ">
    <div>
    <h1 className="font-bold text-3xl " > گستره فعالیت گروه ما</h1>
            
