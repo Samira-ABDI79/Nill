@@ -3,7 +3,7 @@ import "./style.css"
 import {menuItems} from "../Services/Data/data"
 import { Link } from "react-router-dom";
 interface type{
-  flag:boolean;
+  flag:string;
 }
 function Drawer(props:type){
   const [showModal,setShowModal]=useState(false)
@@ -11,8 +11,32 @@ function Drawer(props:type){
 
     return (
         <>
+           {props.flag=="Post" ? 
+
+<div className="relative" dir="rtl">
+   
+   {!showModal ?
+<div className="absolute right-4 lg:-top-[495px] -top-10 z-50" dir="rtl">
+<button className=" " type="button" onClick={()=>setShowModal(true)}>
+<svg className="h-8 w-8 text-white font-bold"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <line x1="3" y1="12" x2="21" y2="12" />  <line x1="3" y1="6" x2="21" y2="6" />  <line x1="3" y1="18" x2="21" y2="18" /></svg>
+
+</button> 
+</div> : <></>
+}
+{showModal ?
+<button className="absolute right-4 lg:-top-[495px] -top-10 z-50" type="button" onClick={()=>setShowModal(false)}>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 ">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+</svg>
+
+</button> : <></>
+}
+</div>
+: <></>
+
+}
         
-        {props.flag ? 
+        {props.flag=="Home" ? 
 
 <div className="relative">
    
@@ -34,7 +58,7 @@ function Drawer(props:type){
 : <></>
 
 }
-{!props.flag ? 
+{props.flag=="Main" ? 
 
 <div className="relative">
    

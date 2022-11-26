@@ -9,7 +9,7 @@ function HomeLayout() {
   return (
     <>
       <HomeNavbar />
-      <Drawer flag={true}/>
+      <Drawer flag="Home"/>
       <Outlet />
       <Footer />
     </>

@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-// import image1 from "./src/Assets/Images/Post/Rectangle 62.png"
+
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",

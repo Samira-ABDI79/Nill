@@ -13,22 +13,21 @@ const PostNavbar = () => {
   return (
    <>
  
-<header className="w-screen bg-hero-pattern shadow overflow-x-hidden z-10 "
+<header className="w-full bg-hero-pattern shadow overflow-x-hidden z-10 lg:h-500   "
  
 >
-{/* <img src={images["Post/Rectangle 62.png"]} alt="" className="" /> */}
 
-    <div className=" relative">
-<div className="">
-<p className="text-white font-bold lg:text-xl text-2xl postNill">
+<div className=" flex justify-between p-3">
+  <p className="text-white font-bold lg:text-xl text-2xl">
     <Link to="/">NILL</Link>
   </p>
-  
+    <div className="flex justify-between lg:w-32 w-3/6" >
     <p className="text-white font-bold text-xl" >منو</p>
-</div>
    
      
        </div>
+       </div>     
+
       
 
 </header>

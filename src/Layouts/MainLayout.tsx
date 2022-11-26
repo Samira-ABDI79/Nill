@@ -9,7 +9,7 @@ function MainLayout() {
   return (
     <>
       <Navbar />
-      <Drawer flag={false} />
+      <Drawer flag="Main" />
       <Outlet />
       <Footer />
     </>

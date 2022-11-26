@@ -9,7 +9,7 @@ function PostLayout() {
   return (
     <>
       <PostNavbar />
-      <Drawer flag={false}/>
+      <Drawer flag="Post"/>
       <Outlet />
       <Footer />
     </>
