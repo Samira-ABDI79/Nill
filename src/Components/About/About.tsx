@@ -24,8 +24,8 @@ function About(){
           
        <img src={images["About/image1.png"]} alt="about" className="w-screen lg:h-96 " />
 
-<div className="lg:w-1/3 w-full back h-96 flex justify-center items-center px-10 lg:-mt-96 ">
-   <div>
+<div className="lg:w-1/3 w-full lg:bg-aboutGray bg-white back h-96 flex justify-center items-center px-10 lg:-mt-96 ">
+   <div className="lg:text-white text-black ">
    <h1 className="font-bold text-3xl " > گستره فعالیت گروه ما</h1>
            
            <p className="text-lg mt-10" > لومرم ایپسوم با تولید سادگی نامفهوم از صنعت چاپ ، و با استفاده از طراحان گرافیک است . چاپگر ها و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است ، و برای شرایط فعلی تکنولوژی مورد نیاز و کاربرد های متنوع با هدف بهبود ابزار های کاربردی می باشد. </p>

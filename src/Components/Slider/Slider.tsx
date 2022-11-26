@@ -32,9 +32,7 @@ const Slider=(props:input) => {
           },
           900:{
             slidesPerView:3,
-        }
-      }}
-    >
+        }}}>
   {item.map((item) => (
 
       <SwiperSlide>

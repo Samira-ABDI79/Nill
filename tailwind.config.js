@@ -30,6 +30,8 @@ module.exports = {
         'red': '#FA3838',
         'dark': '#1C1C1C',
         'dark2': ' #343434',
+        'aboutGray':'rgba(91, 106, 145, 0.7)',
+      
 
 
       'indigo': '#6610f2',
