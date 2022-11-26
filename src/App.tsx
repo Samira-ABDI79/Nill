@@ -12,8 +12,8 @@ Teammate,
 	NewProjectForm
 } from './Pages';
 
-import {MainLayout } from './Layouts'
-import HomeLayout from './Layouts/HomeLayout';
+import {MainLayout  , HomeLayout , PostLayout} from './Layouts'
+
 
 
 
@@ -32,11 +32,15 @@ function App() {
 						<Route path='/' element={<Home />} />
 						
           </Route>
+		  <Route element={<PostLayout />}>
+		  <Route path='/post' element={<Post />} />
+						
+          </Route>
 
 						<Route element={<MainLayout />}>
 					
 							<Route path='/about' element={<About />} />
-							<Route path='/post' element={<Post />} />
+						
 							<Route path='/work' element={<Work />} />
 							<Route path='/blog' element={<Blog />} />
 							<Route path='/teammate' element={<Teammate />} />
