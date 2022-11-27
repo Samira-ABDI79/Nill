@@ -1,7 +1,7 @@
 .mySwiper .swiper-pagination-bullet {
     background-color: #FA3838;
     display: inline-block;
-    width: 60px;
+    width: 3rem;
     height: 2px;
     border-radius: 0 !important;
 }

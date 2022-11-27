@@ -45,7 +45,7 @@ function Home(){
 
      {/* ********* finish firset component ---texst's and image's */}
 
-     <div className="w-screen bg-black ">
+     <div className="w-screen bg-black lg:pb-6">
          <div className="">
          <div className="container  flex flex-col lg:flex-row md:flex-row mt-10 justify-between pb-4">
     
@@ -150,7 +150,7 @@ workParagraph={defaulttext}
 
 {/* ********************************start  ProgressBar */}
 
-<div className="w-screen -my-1 bg-white">
+<div className="w-screen -my-1 pt-10 bg-white">
 <div className="container lg:pr-32">
 
 <p className="font-bold text-3xl lg:pr-2 pr-4  text-black"dir="rtl">پروژه های در حال انجام </p>
