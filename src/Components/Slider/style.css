@@ -1,19 +1,11 @@
-.back {
-    z-index: 1;
-    /* background: rgba(91, 106, 145, 0.7); */
-    backdrop-filter: blur(3.5px); 
-}
-
 .mySwiper .swiper-pagination-bullet {
     background-color: #FA3838;
     display: inline-block;
     width: 60px;
     height: 2px;
     border-radius: 0 !important;
- 
 }
 
 .mySwiper .swiper-pagination-bullet-active {
     background-color: white !important;
   }
-

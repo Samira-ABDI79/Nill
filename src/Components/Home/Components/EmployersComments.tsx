@@ -1,6 +1,6 @@
 
 import images from 'src/Importer/Importer';
-
+import "./EmployersCommentsStyle.css"
 import {EmployersCommentsData} from "../data"
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -42,7 +42,7 @@ const blue = (props.type=="blue" ? true : false)
     }}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
-      className="py-24   w-4/6 container"
+      className="py-24   w-4/6 container mySwiper EmployersComments"
     >
           <div className=" ">
         {item.map((item) => (
@@ -123,7 +123,7 @@ const blue = (props.type=="blue" ? true : false)
     }}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
-      className="py-24   w-4/6 container"
+      className="py-24   w-4/6 container blue"
     >
           <div className=" ">
         {item.map((item) => (

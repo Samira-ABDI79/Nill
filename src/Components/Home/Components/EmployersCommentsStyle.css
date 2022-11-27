@@ -1,0 +1,22 @@
+.blue .swiper-pagination-bullet {
+    background-color: #000;
+    display: inline-block;
+    width: 60px;
+    height: 2px;
+    border-radius: 0 !important;
+}
+
+.blue .swiper-pagination-bullet-active {
+    background-color: blue !important;
+  }
+  .mySwiper .swiper-pagination-bullet {
+    background-color: #FA3838;
+    display: inline-block;
+    width: 60px;
+    height: 2px;
+    border-radius: 0 !important;
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+    background-color: white !important;
+  }

@@ -6,7 +6,7 @@ import { useState } from "react";
 import {memberData} from "../../../Services/Data/data"
 import 'swiper/css';
 
-
+import "../style.css"
 interface input{
   type:string;
 }
@@ -25,7 +25,7 @@ function Members(){
       pagination={{clickable:true}}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
-      className="my-10"
+      className="my-10 mySwiper"
            breakpoints={{
           50:{
               slidesPerView:1,
