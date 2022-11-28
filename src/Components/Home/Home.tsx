@@ -8,25 +8,24 @@ import CustomBreadcrumbs from "../CustomBreadcrumbs/CustomBreadcrumbs";
 import ProgressBar from "./Components/ProgressBar";
 import Slider from "../Slider/Slider";
 import WorkPlan from "./Components/WorkPlan";
+import HomeSlider from "../HomeSlider/HomeSlider";
+import "./style.css"
 function Home(){
   const defaulttext =" لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از  طراحان گرافیک است . "
     return (
      <>
         
-
-
-     <div className="w-screen bg-white pb-12">
-     <div className="container flex  lg:flex-row md:flex-row flex-col-reverse">
-     <div className="">
-         <img src={images['Home/Rectangle 57.png']} alt="طراحی ست اداری" className="w-full lg:w-7/12 float-right lg:h-52" />
-         <img src={images['Home/Rectangle 62.png']} alt="طراحی ست اداری" className="w-full lg:w-6/10" />
-         <img src={images['Home/Rectangle 78.png']} alt="طراحی ست اداری" className="w-full lg:w-32" />
-
-     </div>
-     <div dir="rtl" className="flex justify-center items-center my-12 lg:my-0 md:my-0">
-      <div className="">
+      
+     <div className="w-screen bg-white pb-12 relative">
+     <div className="container bg-pink">
+    <div className="flex justify-between items-start">
+    <div><HomeSlider /></div>
+    <span className="NillDeveloper h-1/12">NillDeveloper</span>
+    </div>
+     {/* <div dir="rtl" className="flex justify-center items-center my-12 lg:my-0 md:my-0 lg:absolute lg:-top-10 z-50 lg:right-12 lg:w-96">
+      <div className="mt-20">
       <p className="text-blue font-bold text-4xl lg:text-3xl "> طراحی ست اداری شرکت hydeout</p>
-       <div className="lg:w-4/6">
+       <div className="lg:w-5/6">
        <p className="text-black  font-bold text-2xl lg:text-xl mt-10">
            این پرسش پیچیدهای است تقریباً نود درصد از احمقها احمق تربیت شده اند و دلیل مادرزاد به دنیا آمدن 
 این ده درصد همان نود درصدی است که احمق تربیت شده اند.
@@ -39,9 +38,9 @@ function Home(){
   <Link to="">مشاهده  پروژه</Link>
   </button>
       </div>
-  </div>
+  </div>*/}
      </div>
-     </div>
+     </div> 
 
      {/* ********* finish firset component ---texst's and image's */}
 

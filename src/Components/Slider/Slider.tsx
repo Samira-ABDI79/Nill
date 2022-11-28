@@ -10,13 +10,7 @@ import "./style.css"
 interface input{
   type:string;
 }
-const Sliderstyle={
-  // "--swiper-pagination-color": "#FFBA08",
-  // "--swiper-pagination-bullet-inactive-color": "#999999",
-  // "--swiper-pagination-bullet-inactive-opacity": "1",
-  // "--swiper-pagination-bullet-size": "16px",
-  // "--swiper-pagination-bullet-horizontal-gap": "6px"
-}
+
 import 'swiper/css/pagination';
 import SwiperCore,{Pagination} from "swiper"
 SwiperCore.use([Pagination])
@@ -40,7 +34,7 @@ const Slider=(props:input) => {
           900:{
             slidesPerView:3,
         }}}
-        style={Sliderstyle}
+      
         >
   {item.map((item) => (
 

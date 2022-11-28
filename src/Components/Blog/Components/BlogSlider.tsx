@@ -19,13 +19,13 @@ function BlogSlider(){
      modules={[Grid]}
      slidesPerView={1}
      grid={{rows:6,fill:"row"}}
-     spaceBetween={30}
+     spaceBetween={2}
      pagination={{clickable:true}}
-     className="mySwiper"
+     className="mySwiper h-500"
     >
 
 {articleData.map((item) => (
-   <SwiperSlide dir="rtl">
+   <SwiperSlide dir="rtl" className="h-screen">
                 <Article 
                 date={item.date}
                 title={item.title}

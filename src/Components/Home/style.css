@@ -1,0 +1,18 @@
+.NillDeveloper{
+    /* position: absolute;
+    width: 962px;
+    height: 236px;
+    left: 1939px;
+    top:83px; */
+    -webkit-text-stroke:5px black;
+    -webkit-text-fill-color: white;
+    transform: rotate(90deg);
+  
+    letter-spacing: 0.085em;
+    font-size: 95px;
+    font-family: 'Kalameh(FaNum)';
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    color: #000;
+}

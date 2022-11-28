@@ -87,7 +87,7 @@ function Drawer(props:type){
 <div className="   pb-20 ">
   <div className="w-3/6 flex flex-col justify-center items-center">
   {item.map((item) => (
-  <a  className="p-3 hover:underline font-bold text-2xl text-white" onClick={()=>setShowModal(false)}>  <Link to={item.route}>{item.name}</Link></a>
+  <a  className="p-3 hover:underline font-bold z-50 text-2xl text-white" onClick={()=>setShowModal(false)}>  <Link to={item.route}>{item.name}</Link></a>
   ))}
 
 
