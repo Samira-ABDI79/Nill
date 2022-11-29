@@ -1,16 +1,21 @@
-.swiper {
-  width: 100%;
+.homeSwiper  {
+  /* width: 100%;
   height: 100%;
-  position: relative;
-  background-color: red;
+  position: relative; */
+  /* background-color: red; */
   z-index: 1;
+  height: 1000px;
+  position: relative; 
+
 }
 
-.swiper-slide {
+.homeSwiper .swiper-slide {
   text-align: left;
   font-size: 18px;
-  background: rgb(136, 136, 136);
-width: 65%;
+ 
+width: 100%;
+height: 998px;
+
   padding: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -27,28 +32,47 @@ width: 65%;
   z-index: 1;
 }
 
-.swiper-slide img {
+.homeSwiper .swiper-slide img {
   display: block;
   width: 100%;
-  /* height: 80%; */
-  height: 400px;
+  /* height: 900px; */
+  height:908px;
   object-fit: cover;
 }
 
-.mySwiper .swiper-button-next {
+.homeSwiper .swiper-button-next {
   position: absolute;
-  top:90%;
+  top:97%;
 color:gray;
 background-color: inherit;
 
 }
 
-.mySwiper .swiper-button-prev {
+.homeSwiper .swiper-button-prev {
   color:gray;
   background-color: inherit;
   position: absolute;
-  top:90%;
+  top:97%;
   /* left: 80rem; */
-  left: 75%;
+  left: 90%;
 
+}
+
+@media screen and (max-width: 800px) {
+  .homeSwiper .swiper-button-prev {
+    color:gray;
+    background-color: inherit;
+    position: absolute;
+    top:97%;
+    /* left: 80rem; */
+    left: 70%;
+  
+  }
+  .homeSwiper .swiper-button-next {
+    position: absolute;
+    top:97%;
+  color:gray;
+  background-color: inherit;
+  
+  }
 }

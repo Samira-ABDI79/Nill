@@ -34,11 +34,11 @@ function HomeSlider() {
 
   return (
 <>
-<Swiper navigation={true} modules={[Navigation]} className="mySwiper z-10 pb-12">
+<Swiper navigation={true} modules={[Navigation]} className="homeSwiper z-10 pb-12">
 
   {item.map((item) => (
 
-<SwiperSlide>
+<SwiperSlide >
 <div>
 <img src={item.image} alt={item.title} className="w-full " />
 

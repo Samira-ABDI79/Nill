@@ -16,14 +16,14 @@ function Home(){
      <>
         
       
-     <div className="w-screen bg-white pb-12 relative">
-     <div className="container bg-pink">
-    <div className="flex justify-between items-start">
-    <div><HomeSlider /></div>
-    <span className="NillDeveloper h-1/12">NillDeveloper</span>
-    </div>
-     {/* <div dir="rtl" className="flex justify-center items-center my-12 lg:my-0 md:my-0 lg:absolute lg:-top-10 z-50 lg:right-12 lg:w-96">
-      <div className="mt-20">
+     <div className="w-screen bg-white  ">
+     <div className="container bg-white  lg:h-[1000px] lg:relative">
+  
+<div className="">
+<HomeSlider />
+</div>
+<div dir="rtl" className="flex justify-center items-center my-12 lg:my-0 md:my-0  lg:w-4/12  lg:absolute lg:right-20 lg:top-44 w-full pb-4 z-50">
+      <div className="mt-20 lg:py-12 lg:pr-4 ">
       <p className="text-blue font-bold text-4xl lg:text-3xl "> طراحی ست اداری شرکت hydeout</p>
        <div className="lg:w-5/6">
        <p className="text-black  font-bold text-2xl lg:text-xl mt-10">
@@ -38,13 +38,14 @@ function Home(){
   <Link to="">مشاهده  پروژه</Link>
   </button>
       </div>
-  </div>*/}
-     </div>
+  </div>
+    <span className="NillDeveloper absolute lg:-right-[490px] top-[420px] hidden lg:flex md:-right-[480px]">NILL DEVeLOPERS</span>
+    </div>
      </div> 
-
+     
      {/* ********* finish firset component ---texst's and image's */}
 
-     <div className="w-screen bg-black lg:pb-6">
+     <div className="w-screen bg-black lg:pb-6 ">
          <div className="">
          <div className="container  flex flex-col lg:flex-row md:flex-row mt-10 justify-between pb-4">
     
@@ -114,7 +115,7 @@ workParagraph={defaulttext}
 
  
 
-{/* ************************* end start WorkPlan */}
+{/* ************************* end WorkPlan */}
 
 <div className="container" dir="rtl">
         <CustomBreadcrumbs pageName="پورتفولیو" route=""/>
