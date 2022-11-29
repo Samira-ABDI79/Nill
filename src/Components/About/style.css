@@ -4,16 +4,49 @@
     backdrop-filter: blur(3.5px); 
 }
 
-.mySwiper .swiper-pagination-bullet {
+.member .swiper-pagination-bullet {
     background-color: #FA3838;
     display: inline-block;
-    width: 60px;
+    width: 3rem;
     height: 2px;
     border-radius: 0 !important;
  
 }
 
-.mySwiper .swiper-pagination-bullet-active {
+.member .swiper-pagination-bullet-active {
     background-color: white !important;
+  }
+
+  .member .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+   
+  width: 90%;
+  height: 90%;
+  
+    padding: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items:flex-start;
+    z-index: 1;
+  }
+
+  @media screen and (max-width: 800px) {
+  
+    .member .swiper-pagination-bullet {
+      
+      width: 1.75rem;
+      height: 2px;
+     
+  }
   }
 

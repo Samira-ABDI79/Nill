@@ -1,6 +1,6 @@
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import "./BlogSlider.css"
 import {BlogsData} from "../data"
 import Article from "./Article";
 import { useState } from "react";
@@ -21,7 +21,18 @@ function BlogSlider(){
      grid={{rows:6,fill:"row"}}
      spaceBetween={2}
      pagination={{clickable:true}}
-     className="mySwiper h-500"
+     className="BlogSlider "
+     breakpoints={{
+      50:{
+        // grid:{rows:2,fill:"row"},
+        // rows:2
+      },
+      900:{
+        // grid:{rows:6,fill:"row"}
+
+    }}}
+  
+    
     >
 
 {articleData.map((item) => (

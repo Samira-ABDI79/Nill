@@ -16,7 +16,7 @@ function Home(){
      <>
         
       
-     <div className="w-screen bg-white  ">
+     <div className="w-screen bg-white pb-12 ">
      <div className="container bg-white  lg:h-[1000px] lg:relative">
   
 <div className="">
@@ -47,13 +47,13 @@ function Home(){
 
      <div className="w-screen bg-black lg:pb-6 ">
          <div className="">
-         <div className="container  flex flex-col lg:flex-row md:flex-row mt-10 justify-between pb-4">
+         <div className="container  flex flex-col lg:flex-row  mt-10 justify-between pb-4">
     
          <img src={images['Home/image 15.png']} alt="طراحی ست اداری" className="w-full  " />
         
 
     
-     <div dir="rtl" className=" my-12 lg:my-0 md:my-0 lg:pb-6">
+     <div dir="rtl" className=" my-12 lg:my-0  lg:pb-6">
       <div className="lg:w-5/6">
       <p className="text-white font-bold text-4xl lg:text-4xl "> طراحی ست اداری شرکت hydeout</p>
         <p className="text-gray-dark  font-bold text-2xl lg:text-xl mt-10">

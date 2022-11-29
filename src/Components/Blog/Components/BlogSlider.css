@@ -1,0 +1,56 @@
+.BlogSlider  {
+ 
+    z-index: 1;
+    height: 1300px;
+    position: relative; 
+  
+  }
+  
+  .BlogSlider .swiper-slide {
+    text-align: right;
+    font-size: 18px;
+   
+  width: 100%;
+  height: 200px;
+  
+    padding: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+  
+    z-index: 1;
+  }
+  
+ 
+
+
+.BlogSlider .swiper-pagination-bullet {
+    background-color: #FA3838;
+    display: inline-block;
+    width: 3rem;
+    height: 2px;
+    border-radius: 0 !important;
+}
+
+.BlogSlider .swiper-pagination-bullet-active {
+    background-color: white !important;
+  }
+
+  
+  @media screen and (max-width: 800px) {
+   
+    .BlogSlider .swiper-pagination-bullet {
+      
+      width: 1.75rem;
+      height: 2px;
+     
+  }
+  .BlogSlider  {
+ 
+ 
+    height: 300px;
+   
+  
+  }
+  }
+  

@@ -25,7 +25,7 @@ function Members(){
       pagination={{clickable:true}}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
-      className="my-10 mySwiper"
+      className="my-10 member"
            breakpoints={{
           50:{
               slidesPerView:1,

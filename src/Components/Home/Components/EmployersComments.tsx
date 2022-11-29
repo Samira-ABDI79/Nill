@@ -42,13 +42,13 @@ const blue = (props.type=="blue" ? true : false)
     }}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
-      className="py-24   w-4/6 container mySwiper EmployersComments"
+      className="py-24   w-4/6 container darkSlider EmployersComments"
     >
           <div className=" ">
         {item.map((item) => (
            <SwiperSlide >
            <img
-            className="w-4 h-4 relative z-10 right-12 top-3"
+            className="w-4 h-4 relative z-10 right-16 top-0"
             src={images["Icons/DoubleCoutYellow.svg"]}
             alt=""
           />
@@ -129,7 +129,7 @@ const blue = (props.type=="blue" ? true : false)
         {item.map((item) => (
            <SwiperSlide >
            <img
-            className="w-4 h-4 relative z-10 right-12 top-3"
+            className="w-4 h-4 relative z-10 right-16 top-0"
             src={images["Icons/DoubleCoutYellow.svg"]}
             alt=""
           />

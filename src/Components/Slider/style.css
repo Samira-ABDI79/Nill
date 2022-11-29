@@ -9,3 +9,13 @@
 .mySwiper .swiper-pagination-bullet-active {
     background-color: white !important;
   }
+
+  @media screen and (max-width: 800px) {
+    
+    .mySwiper .swiper-pagination-bullet{
+      
+      width: 1.65rem;
+      height: 2px;
+     
+  }
+  }
