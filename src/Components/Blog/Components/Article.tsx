@@ -10,8 +10,8 @@ function Article(props:data){
         <>
         
 <div>
-<div className="h-[1px] bg-white w-full  "></div>
-<div className=" flex lg:items-center py-6 flex-col lg:flex-row ">
+
+<div className=" flex lg:items-center lg:py-6 py-1 flex-col lg:flex-row ">
 <div className="lg:w-2/5">
 <img src={props.image} alt={props.title} className=" w-full "/>
 
@@ -24,9 +24,10 @@ function Article(props:data){
            
 
     </div>
+    
 </div>
 
-
+<div className="h-[1px] bg-white w-full  "></div>
 </div>
         </>
     )

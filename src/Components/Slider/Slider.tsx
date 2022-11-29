@@ -4,7 +4,7 @@ import {BlogsData} from "../Blog/data"
 import SliderItems from '../SliderItems/SliderItems';
 import { useState } from "react";
 
-import "../../Assets/styles/css/components/customizeSlider.css"
+// import "../../Assets/styles/css/components/customizeSlider.css"
 import 'swiper/css';
 import {lastProject} from "../../Services/Data/data"
 import "./style.css"
@@ -27,7 +27,7 @@ const Slider=(props:input) => {
       pagination={{clickable:true}}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
-      className="my-10 mySwiper"
+      className="my-10 mySlider"
            breakpoints={{
           50:{
               slidesPerView:1,

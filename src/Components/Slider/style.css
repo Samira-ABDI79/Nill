@@ -1,4 +1,4 @@
-.mySwiper .swiper-pagination-bullet {
+.mySlider .swiper-pagination-bullet {
     background-color: #FA3838;
     display: inline-block;
     width: 3rem;
@@ -6,13 +6,16 @@
     border-radius: 0 !important;
 }
 
-.mySwiper .swiper-pagination-bullet-active {
+.mySlider .swiper-pagination-bullet-active {
     background-color: white !important;
   }
-
+  .mySlider  .swiper-wrapper {
+   height: 500px;
+    
+  }
   @media screen and (max-width: 800px) {
     
-    .mySwiper .swiper-pagination-bullet{
+    .mySlider .swiper-pagination-bullet{
       
       width: 1rem;
       height: 2px;
