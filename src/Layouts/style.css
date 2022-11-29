@@ -36,6 +36,9 @@
     font-size: 35px;
     font-weight: bold;
 }
+.drawer{
+    z-index: 999;
+}
 
 
 

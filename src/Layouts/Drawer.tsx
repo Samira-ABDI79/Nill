@@ -82,10 +82,10 @@ function Drawer(props:type){
 }
 {showModal ? 
 <div className="modal">
-<div id="drawer" className="fixed z-50 h-screen p-4 overflow-y-auto bg-dark w-80 "  aria-labelledby="drawer-label">
+<div id="drawer" className="fixed h-screen p-4 overflow-y-auto bg-dark w-screen  drawer"  aria-labelledby="drawer-label">
   
 <div className="   pb-20 ">
-  <div className="w-3/6 flex flex-col justify-center items-center">
+  <div className="w-full flex flex-col justify-center items-center">
   {item.map((item) => (
   <a  className="p-3 hover:underline font-bold z-50 text-2xl text-white" onClick={()=>setShowModal(false)}>  <Link to={item.route}>{item.name}</Link></a>
   ))}

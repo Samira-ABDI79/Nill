@@ -3,9 +3,9 @@
   height: 100%;
   position: relative; */
   /* background-color: red; */
-  z-index: 1;
+  /* z-index: -1; */
   height: 1000px;
-  position: relative; 
+
 
 }
 
@@ -29,8 +29,9 @@ height: 998px;
   -ms-flex-align: left;
   -webkit-align-items: left;
   align-items: left;
-  z-index: 1;
+
 }
+
 
 .homeSwiper .swiper-slide img {
   display: block;
@@ -38,6 +39,7 @@ height: 998px;
   /* height: 900px; */
   height:908px;
   object-fit: cover;
+
 }
 
 .homeSwiper .swiper-button-next {

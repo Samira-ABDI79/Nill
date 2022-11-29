@@ -22,7 +22,7 @@ function Home(){
 <div className="">
 <HomeSlider />
 </div>
-<div dir="rtl" className="flex justify-center items-center my-12 lg:my-0 md:my-0  lg:w-4/12  lg:absolute lg:right-20 lg:top-44 w-full pb-4 z-50">
+<div dir="rtl" className="flex justify-center items-center my-12 lg:my-0 md:my-0  lg:w-4/12  lg:absolute lg:right-20 lg:top-44 w-full pb-4 ">
       <div className="mt-20 lg:py-12 lg:pr-4 ">
       <p className="text-blue font-bold text-4xl lg:text-3xl "> طراحی ست اداری شرکت hydeout</p>
        <div className="lg:w-5/6">
@@ -39,7 +39,7 @@ function Home(){
   </button>
       </div>
   </div>
-    <span className="NillDeveloper absolute lg:-right-[490px] top-[420px] hidden lg:flex md:-right-[480px]">NILL DEVeLOPERS</span>
+    <span className="NillDeveloper  absolute lg:-right-[490px] top-[420px] hidden lg:flex md:-right-[480px]">NILL DEVeLOPERS</span>
     </div>
      </div> 
      

@@ -13,9 +13,9 @@
     letter-spacing: 0.085em;
     font-size: 95px;
     font-family: 'Kalameh(FaNum)';
-    font-weight: 700;
+    font-weight: 800;
     font-style: normal;
     display: flex;
     color: #000;
-    z-index: 1;
+    /* z-index: 1; */
 }
