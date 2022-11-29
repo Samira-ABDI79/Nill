@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import {BlogsData} from "../Blog/data"
 import SliderItems from '../SliderItems/SliderItems';
 import { useState } from "react";
+
 import "../../Assets/styles/css/components/customizeSlider.css"
 import 'swiper/css';
 import {lastProject} from "../../Services/Data/data"

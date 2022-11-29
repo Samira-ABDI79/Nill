@@ -34,7 +34,7 @@ function HomeSlider() {
 
   return (
 <>
-<Swiper navigation={true} modules={[Navigation]} className="homeSwiper z-10 pb-12">
+<Swiper navigation={true} modules={[Navigation]} className="homeSwiper z-0 pb-12">
 
   {item.map((item) => (
 
