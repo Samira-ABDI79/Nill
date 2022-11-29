@@ -48,7 +48,7 @@ function Drawer(props:type){
 }
 {showModal ?
 <button className="close z-50" type="button" onClick={()=>setShowModal(false)}>
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 ">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8   text-black">
   <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
 </svg>
 
@@ -82,7 +82,52 @@ function Drawer(props:type){
 }
 {showModal ? 
 <div className="modal">
-<div id="drawer" className="fixed h-screen p-4 overflow-y-auto bg-dark w-screen  drawer"  aria-labelledby="drawer-label">
+
+<header className="w-screen p-3 bg-dark shadow overflow-x-hidden z-50">
+    <div className="w-screen  flex justify-between p-3">
+  <p className="text-white font-bold lg:text-xl text-2xl">
+    <Link to="/">NILL</Link>
+  </p>
+    <div className="flex justify-between lg:w-32 w-3/6" >
+    <p className="text-white font-bold text-xl" >منو</p>
+   
+     
+       </div>
+       </div>     
+
+</header>
+<div id="drawer" className="fixed h-screen p-4 overflow-y-auto bg-black w-screen  drawer"  aria-labelledby="drawer-label">
+  
+<div className="   pb-20 ">
+  <div className="w-full flex flex-col justify-center items-center">
+  {item.map((item) => (
+  <a  className="p-3 hover:underline font-bold z-50 text-2xl text-white" onClick={()=>setShowModal(false)}>  <Link to={item.route}>{item.name}</Link></a>
+  ))}
+
+
+
+  </div>
+</div>
+</div></div>
+: <></>}
+
+{(showModal && props.flag=="Home" ) ? 
+<div className="modal">
+
+<header className="w-screen p-3 bg-white shadow overflow-x-hidden z-10">
+    <div className="w-screen  flex justify-between p-3">
+  <p className="text-black font-bold lg:text-xl text-2xl">
+    <Link to="/">NILL</Link>
+  </p>
+    <div className="flex justify-between lg:w-32 w-3/6" >
+    <p className="text-black font-bold text-xl"  >منو</p>
+   
+  
+       </div>
+       </div>     
+
+</header>
+<div id="drawer" className="fixed h-screen p-4 overflow-y-auto bg-black w-screen  drawer"  aria-labelledby="drawer-label">
   
 <div className="   pb-20 ">
   <div className="w-full flex flex-col justify-center items-center">

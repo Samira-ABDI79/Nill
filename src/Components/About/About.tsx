@@ -79,7 +79,7 @@ function About(){
         </div>
        <div className="container mt-10">
      
-        <div className="grid lg:grid-cols-2 lg:grid-rows-1  lg:gap-2 grid-cols-1 grid-rows-2  gap-4">
+        <div className="grid lg:grid-cols-2 lg:grid-rows-1  lg:gap-2 grid-cols-1 grid-rows-2  gap-4 mb-12">
              <div className="lg:row-span-1 ">
              <NewProjectForm/>
              </div>
