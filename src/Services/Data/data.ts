@@ -5,7 +5,11 @@ import images from "../../Importer/Importer"
 // ------------------------- start menu data ---------------
 export const menuItems = [
   
-  
+  {
+    id:1,
+    name:"Home",
+    route:"/"
+  },
   {
     id: 2,
     name: "Blog",

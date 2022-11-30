@@ -196,17 +196,20 @@ function Drawer(props:type){
               className="fixed h-screen p-4 overflow-y-auto bg-black w-screen  drawer"
               aria-labelledby="drawer-label"
             >
-              <div className="   pb-20 ">
+              <div className="pb-20">
                 <div className="w-full flex flex-col justify-center items-center">
-                  {item.map((item) => (
-                    <a
-                      className="p-3 hover:underline font-bold z-50 text-2xl text-white"
-                      onClick={() => setShowModal(false)}
-                    >
-                      {" "}
-                      <Link to={item.route}>{item.name}</Link>
-                    </a>
-                  ))}
+                  <div className=" navigation">
+                    <ul>
+                      {item.map((item) => (
+                        <li
+                          className="p-3 hover:underline-offset-0 font-bold z-50 text-2xl text-white"
+                          onClick={() => setShowModal(false)}
+                        >
+                          <Link to={item.route} data-text={item.name}>{item.name}</Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
@@ -233,16 +236,20 @@ function Drawer(props:type){
               aria-labelledby="drawer-label"
             >
               <div className="   pb-20 ">
-                <div className="w-full flex flex-col justify-center items-center">
-                  {item.map((item) => (
-                    <a
-                      className="p-3 hover:underline font-bold z-50 text-2xl text-white"
-                      onClick={() => setShowModal(false)}
-                    >
-                      {" "}
-                      <Link to={item.route}>{item.name}</Link>
-                    </a>
-                  ))}
+                <div className="w-full flex flex-col justify-center items-center ">
+                  <div className="navigation ">
+                  
+                    <ul className="">
+                      {item.map((item) => (
+                        <li
+                          className="p-3 hover:underline font-bold z-50 text-2xl text-white "
+                          onClick={() => setShowModal(false)}
+                        >
+                          <Link to={item.route} data-text={item.name}>{item.name}</Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
