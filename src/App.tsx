@@ -2,7 +2,7 @@ import {useRef, useLayoutEffect} from "react";
 import {gsap} from "gsap-trial";
 import ScrollTrigger from "gsap-trial/ScrollTrigger";
 import ScrollSmoother from "gsap-trial/ScrollSmoother";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {  Routes, Route,HashRouter  } from "react-router-dom";
 import { ScrollToTop } from "./Components";
 
 import {
@@ -38,7 +38,7 @@ function App() {
   return (
     <div>
       <div>
-        <Router>
+        <HashRouter>
           <ScrollToTop>
             <Routes>
               <Route path="*" element={<NotFound />} />
@@ -59,7 +59,7 @@ function App() {
               </Route>
             </Routes>
           </ScrollToTop>
-        </Router>
+        </HashRouter>
       </div>
     </div>
   );
