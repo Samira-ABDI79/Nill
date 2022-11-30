@@ -19,7 +19,7 @@
   --light-grey-border-color: #3a3a3a;
   --light-grey-color: #959595;
 }
-a,p{
+a,p,ul,li,h1, h2, h3, h4, h5, h6{
   font-family: "Kalameh",sans-serif;
 }
 .animation {
