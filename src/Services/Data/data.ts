@@ -32,7 +32,7 @@ export const menuItems = [
   },
   {
     id: 5,
-    name: "About Us",
+    name: "About",
     route: "/about",
   },
 
