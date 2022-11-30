@@ -1,9 +1,4 @@
-// react hook
 import { useEffect, useRef } from "react";
-
-// library
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { Routes, Route, HashRouter } from "react-router-dom";
 import { ScrollToTop } from "./Components";
 import {
@@ -20,8 +15,11 @@ import {
 import { MainLayout, HomeLayout, PostLayout } from "./Layouts";
 // import AOS from "aos";
 // import "aos/dist/aos.css";
+
+// import { gsap } from "gsap";
+// import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+// gsap.registerPlugin(ScrollTrigger);
 import "./App.css";
-gsap.registerPlugin(ScrollTrigger);
 
 export default function App() {
   // START AOS plugin
@@ -62,10 +60,10 @@ export default function App() {
 
   // // routing scrollTrigger refresh
   // useEffect(() => {
-  //   ScrollTrigger.refresh();
-  //   // setTimeout(() => {
-  //   //   ScrollTrigger.refresh();
-  //   // }, 100);
+  //   // ScrollTrigger.refresh();
+  //   setTimeout(() => {
+  //     ScrollTrigger.refresh();
+  //   }, 100);
   // });
 
   // useEffect(() => {
@@ -85,9 +83,9 @@ export default function App() {
   // data-aos-delay="50"
   // data-aos-duration="900"
   return (
-    <div>
-      <div>
-        <main >
+    <div id="header" className="scroll_wrap">
+      <div className="scroll_container">
+        <main>
           <HashRouter>
             <ScrollToTop>
               <Routes>
@@ -118,39 +116,39 @@ export default function App() {
   );
 }
 // smooth scroll
-function smoothScroll(ref) {
-  const scrollContent = ref.current;
-  const scrollHeightBox = scrollContent.parentElement.parentElement;
-  let height;
+// function smoothScroll(ref) {
+//   const scrollContent = ref.current;
+//   const scrollHeightBox = scrollContent.parentElement.parentElement;
+//   let height;
 
-  // set(resize) height
-  function refreshHeight() {
-    const headerH = document.getElementById("header").offsetHeight;
-    height = scrollContent.offsetHeight + headerH;
-    scrollHeightBox.style.height = height + "px";
-    console.log(height);
-  }
-  ScrollTrigger.addEventListener("refreshInit", refreshHeight);
+//   // set(resize) height
+//   function refreshHeight() {
+//     const headerH = document.getElementById("header").offsetHeight;
+//     height = scrollContent.offsetHeight + headerH;
+//     scrollHeightBox.style.height = height + "px";
+//     console.log(height);
+//   }
+//   ScrollTrigger.addEventListener("refreshInit", refreshHeight);
 
-  // ScrollTrigger 새로고침 시 기타 애니메이션 튕김 방지
-  function killScrub(trigger) {
-    let scrub = trigger.getTween
-      ? trigger.getTween()
-      : gsap.getTweensOf(trigger.animation)[0];
-    scrub && scrub.kill();
-    trigger.animation.progress(trigger.progress);
-  }
+//   // ScrollTrigger 새로고침 시 기타 애니메이션 튕김 방지
+//   function killScrub(trigger) {
+//     let scrub = trigger.getTween
+//       ? trigger.getTween()
+//       : gsap.getTweensOf(trigger.animation)[0];
+//     scrub && scrub.kill();
+//     trigger.animation.progress(trigger.progress);
+//   }
 
-  gsap.to(scrollContent, {
-    y: () => document.documentElement.clientHeight - height,
-    ease: "none",
-    onUpdate: ScrollTrigger.update,
-    scrollTrigger: {
-      invalidateOnRefresh: true,
-      start: 0,
-      end: () => height - document.documentElement.clientHeight,
-      scrub: 0.6,
-      onRefresh: killScrub,
-    },
-  });
-}
+//   gsap.to(scrollContent, {
+//     y: () => document.documentElement.clientHeight - height,
+//     ease: "none",
+//     onUpdate: ScrollTrigger.update,
+//     scrollTrigger: {
+//       invalidateOnRefresh: true,
+//       start: 0,
+//       end: () => height - document.documentElement.clientHeight,
+//       scrub: 0.6,
+//       onRefresh: killScrub,
+//     },
+//   });
+// }
