@@ -202,7 +202,7 @@ function Drawer(props:type){
                     <ul>
                       {item.map((item) => (
                         <li
-                          className="p-3 hover:underline-offset-0 font-bold z-50 text-2xl text-white"
+                          className="p-3 pt-8 hover:underline-offset-0 font-bold z-50 text-2xl text-white"
                           onClick={() => setShowModal(false)}
                         >
                           <Link to={item.route} data-text={item.name}>{item.name}</Link>
@@ -242,7 +242,7 @@ function Drawer(props:type){
                     <ul className="">
                       {item.map((item) => (
                         <li
-                          className="p-3 hover:underline font-bold z-50 text-2xl text-white "
+                          className="p-3 pt-8 hover:underline-offset-0 font-bold z-50 text-2xl text-white "
                           onClick={() => setShowModal(false)}
                         >
                           <Link to={item.route} data-text={item.name}>{item.name}</Link>
