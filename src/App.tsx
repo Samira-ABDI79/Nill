@@ -13,7 +13,7 @@ Teammate,
 } from './Pages';
 
 import {MainLayout  , HomeLayout , PostLayout} from './Layouts'
-
+import './App.css'
 
 
 
