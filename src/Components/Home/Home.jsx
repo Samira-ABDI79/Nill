@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import images from "../../Importer/Importer";
 import NewProject from "../NewProject/NewProject";
 import ClosedProjects from "../ClosedProjects/ClosedProjects";
@@ -10,19 +9,11 @@ import WorkPlan from "./Components/WorkPlan";
 import HomeSlider from "../HomeSlider/HomeSlider";
 import "./style.css";
 import Button from "../Button/Button";
-import hoverEffect from 'hover-effect';
+import WaterEffect from "../WaterEffect/WaterEffect";
 
 
 function Home() {
-  useEffect(()=>{
-    let image_animate = new hoverEffect({
-      parent:  document.querySelector(".item-image"),
-      intensity: 0.3,
-      image1: images["Home/image 15.png"],
-      image2: images["Work/Rectangle 54.png"],
-      displacementImage: images["Home/test/image2.jpg"],
-    });
-  })
+
   const defaulttext =
     " لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از  طراحان گرافیک است . ";
   return (
@@ -69,20 +60,12 @@ function Home() {
       <div className="w-screen bg-black lg:pb-6 ">
         <div className="">
           <div className="container flex flex-col lg:flex-row items-center  mt-10 justify-between pb-4">
-            {/* <img
-              src={images["Home/image 15.png"]}
-              alt="طراحی ست اداری"
-              className="w-full  "
-            /> */}
-            <div className="container-1">
-              <div className="item-image-dad">
-                <div className="item-header">
-                </div>
-                <div className="item-image"></div>
-                <div className="item-footer">
-                </div>
-              </div>
-            </div>
+
+            <WaterEffect
+              image1={images["Home/image 15.png"]}
+              image2={images["Work/Rectangle 54.png"]}
+              image3={images["Home/test/image2.jpg"]}
+            />
 
             <div dir="rtl" className=" my-12 lg:my-0  lg:pb-6">
               <div className="lg:w-5/6">
