@@ -4,76 +4,76 @@
 @font-face {
   font-family: Kalameh;
   font-style: normal;
-  src: url("../../../fonts/KalamehWeb-Black.eot");
-  src: url("../../../fonts/KalamehWeb-Black.eot?#iefix")
+  src: url("../../../Fonts/KalamehWeb-Regular.eot");
+  src: url("../../../Fonts/KalamehWeb-Black.eot?#iefix")
       format("embedded-opentype"),
-    url("../../../fonts/KalamehWeb-Black.woff2") format("woff2"),
-    url("../../../fonts/KalamehWeb-Black.woff") format("woff");
+    url("../../../Fonts/KalamehWeb-Black.woff2") format("woff2"),
+    url("../../../Fonts/KalamehWeb-Black.woff") format("woff");
 }
 @font-face {
   font-family: Shabnam;
   font-style: normal;
-  src: url("../../../fonts/Shabnam.ttf");
-  src: url("../../../fonts/Shabnam.ttf") format("truetype");
+  src: url("../../../Fonts/Shabnam.ttf");
+  src: url("../../../Fonts/Shabnam.ttf") format("truetype");
 }
 @font-face {
   font-family: Kalameh;
   font-style: normal;
   font-weight: 700;
-  src: url("../../../fonts/KalamehWeb-Bold.eot");
-  src: url("../../../fonts/KalamehWeb-Bold.eot?#iefix")
+  src: url("../../../Fonts/KalamehWeb-Bold.eot");
+  src: url("../../../Fonts/KalamehWeb-Bold.eot?#iefix")
       format("embedded-opentype"),
-    url("../../../fonts/KalamehWeb-Bold.woff2") format("woff2"),
-    url("../../../fonts/KalamehWeb-Bold.woff") format("woff");
+    url("../../../Fonts/KalamehWeb-Bold.woff2") format("woff2"),
+    url("../../../Fonts/KalamehWeb-Bold.woff") format("woff");
 }
 
 @font-face {
   font-family: Kalameh;
   font-style: normal;
   font-weight: 400;
-  src: url("../../../fonts/KalamehWeb-Regular.eot");
-  src: url("../../../fonts/KalamehWeb-Regular.eot?#iefix")
+  src: url("../../../Fonts/KalamehWeb-Regular.eot");
+  src: url("../../../Fonts/KalamehWeb-Regular.eot?#iefix")
       format("embedded-opentype"),
-    url("../../../fonts/KalamehWeb-Regular.woff2") format("woff2"),
-    url("../../../fonts/KalamehWeb-Regular.woff") format("woff");
+    url("../../../Fonts/KalamehWeb-Regular.woff2") format("woff2"),
+    url("../../../Fonts/KalamehWeb-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: Kalameh;
   font-style: normal;
   font-weight: 300;
-  src: url("../../../fonts/KalamehWeb-Thin.eot");
-  src: url("../../../fonts/KalamehWeb-Thin.eot?#iefix")
+  src: url("../../../Fonts/KalamehWeb-Thin.eot");
+  src: url("../../../Fonts/KalamehWeb-Thin.eot?#iefix")
       format("embedded-opentype"),
-    url("../../../fonts/KalamehWeb-Thin.woff2") format("woff2"),
-    url("../../../fonts/KalamehWeb-Thin.woff") format("woff");
+    url("../../../Fonts/KalamehWeb-Thin.woff2") format("woff2"),
+    url("../../../Fonts/KalamehWeb-Thin.woff") format("woff");
 }
 
 @font-face {
   font-family: Shabnam;
   font-style: normal;
   font-weight: 700;
-  src: url("../../../fonts/Shabnam-Bold.ttf");
-  src: url("../../../fonts/Shabnam-Bold.ttf") format("truetype");
+  src: url("../../../Fonts/Shabnam-Bold.ttf");
+  src: url("../../../Fonts/Shabnam-Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: Shabnam;
   font-style: normal;
   font-weight: 500;
-  src: url("../../../fonts/Shabnam-Medium.ttf");
-  src: url("../../../fonts/Shabnam-Medium.ttf") format("truetype");
+  src: url("../../../Fonts/Shabnam-Medium.ttf");
+  src: url("../../../Fonts/Shabnam-Medium.ttf") format("truetype");
 }
 @font-face {
   font-family: Shabnam;
   font-style: normal;
   font-weight: 300;
-  src: url("../../../fonts/Shabnam-Light.ttf");
-  src: url("../../../fonts/Shabnam-Light.ttf") format("truetype");
+  src: url("../../../Fonts/Shabnam-Light.ttf");
+  src: url("../../../Fonts/Shabnam-Light.ttf") format("truetype");
 }
 @font-face {
   font-family: Shabnam;
   font-style: normal;
   font-weight: 100;
-  src: url("../../../fonts/Shabnam-Thin.ttf");
-  src: url("../../../fonts/Shabnam-Thin.ttf") format("truetype");
+  src: url("../../../Fonts/Shabnam-Thin.ttf");
+  src: url("../../../Fonts/Shabnam-Thin.ttf") format("truetype");
 }
