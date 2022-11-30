@@ -10,7 +10,7 @@ function NewProject() {
             پروژه جدید داری؟
           </p>
 
-          <div className="pt-6 pb-6">
+          <div className="pb-4">
             <Button route="/new-project-form" btnType="simple" btntxt="بیشتر" />
           </div>
         </div>

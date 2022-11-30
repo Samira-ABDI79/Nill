@@ -25,6 +25,7 @@
   font-size: inherit;
   position: relative;
   display: inline-block;
+  margin-top: 35px;
 }
 
 .button::before,
