@@ -14,7 +14,7 @@ function Home() {
   const defaulttext =
     " لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از  طراحان گرافیک است . ";
   return (
-    <>
+    <div>
       <div className="w-screen bg-white pb-12 ">
         <div className="container bg-white  lg:h-[1000px] lg:relative">
           <div className="">
@@ -183,7 +183,7 @@ function Home() {
       <ClosedProjects />
 
       <NewProject />
-    </>
+    </div>
   );
 }
 
