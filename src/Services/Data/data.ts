@@ -30,11 +30,7 @@ export const menuItems = [
     name: "Teammate",
     route: "/teammate",
   },
-  {
-    id: 5,
-    name: "About Us",
-    route: "/about",
-  },
+ 
 
 ];
 // -------------------------end menu data ---------------

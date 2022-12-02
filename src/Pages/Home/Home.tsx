@@ -1,13 +1,11 @@
-import {Home as HomePage} from "../../Components"
+import { Home as HomePage } from "../../Components";
 
-function Home(){
-    return (
-     <>
-    
-     <HomePage />
-    
-     </>
-    )
+function Home() {
+  return (
+    <>
+      <HomePage />
+    </>
+  );
 }
 
 export default Home;

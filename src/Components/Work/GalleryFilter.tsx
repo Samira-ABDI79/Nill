@@ -53,44 +53,44 @@ function GalleryFilter() {
   }, [filter]);
   return (
     <>
-      <div className="portfolio__labels  lg:text-center lg:pb-20 pb-10 flex flex-wrap lg:block">
+      <div className="portfolio__labels  lg:text-center lg:pb-20 pb-10 flex flex-wrap lg:flex pt-5">
         <a
-          className={`lg:pl-9 lg:pr-9 mt-2 lg:mt-0 w-28  animation  ${filter === "all" ? "activeda" : "filter-a-tag"} ${filter === "all" ? "text-yellow" : "text-white"}`}
+          className={`lg:pl-9 lg:pr-9 mt-2 lg:mt-0   animation flex justify-center items-center ${filter === "all" ? "activeda" : "filter-a-tag"} ${filter === "all" ? "text-yellow" : "text-white"}`}
           
           onClick={() => setFilter("all")}
         >
           All
         </a>
         <a
-          className={`lg:pl-9 lg:pr-9 mt-2 lg:mt-0 w-28  animation  ${filter === "webdesign" ? "activeda" : "filter-a-tag"} ${filter === "webdesign" ? "text-yellow" : "text-white"}`}
+          className={`lg:pl-9 lg:pr-9 mt-2 lg:mt-0   animation flex justify-center items-center ${filter === "webdesign" ? "activeda" : "filter-a-tag"} ${filter === "webdesign" ? "text-yellow" : "text-white"}`}
           
           onClick={() => setFilter("webdesign")}
         >
           Web Design
         </a>
         <a
-          className={`lg:pl-9 lg:pr-9 mt-2 lg:mt-0 w-28  animation  ${filter === "ux-ui" ? "activeda" : "filter-a-tag"} ${filter === "ux-ui" ? "text-yellow" : "text-white"}`}
+          className={`lg:pl-9 lg:pr-9 mt-2 lg:mt-0   animation flex justify-center items-center ${filter === "ux-ui" ? "activeda" : "filter-a-tag"} ${filter === "ux-ui" ? "text-yellow" : "text-white"}`}
           
           onClick={() => setFilter("ux-ui")}
         >
           Ui/UX
         </a>
         <a
-          className={`lg:pl-9 lg:pr-9 mt-2 lg:mt-0 w-28  animation  ${filter === "graphic" ? "activeda" : "filter-a-tag"} ${filter === "graphic" ? "text-yellow" : "text-white"}`}
+          className={`lg:pl-9 lg:pr-9 mt-2 lg:mt-0   animation flex justify-center items-center ${filter === "graphic" ? "activeda" : "filter-a-tag"} ${filter === "graphic" ? "text-yellow" : "text-white"}`}
           
           onClick={() => setFilter("graphic")}
         >
           Graphic
         </a>
         <a
-          className={`lg:pl-9 lg:pr-9 mt-2 lg:mt-0 w-28  animation  ${filter === "3d" ? "activeda" : "filter-a-tag"} ${filter === "3d" ? "text-yellow" : "text-white"}`}
+          className={`lg:pl-9 lg:pr-9 mt-2 lg:mt-0   animation flex justify-center items-center ${filter === "3d" ? "activeda" : "filter-a-tag"} ${filter === "3d" ? "text-yellow" : "text-white"}`}
          
           onClick={() => setFilter("3d")}
         >
           3D
         </a>
         <a
-          className={`lg:pl-9 lg:pr-9 mt-2 lg:mt-0 w-28  animation  ${filter === "seo" ? "activeda" : "filter-a-tag"} ${filter === "seo" ? "text-yellow" : "text-white"}`}
+          className={`lg:pl-9 lg:pr-9 mt-2 lg:mt-0   animation flex justify-center items-center ${filter === "seo" ? "activeda" : "filter-a-tag"} ${filter === "seo" ? "text-yellow" : "text-white"}`}
          
           onClick={() => setFilter("seo")}
         >

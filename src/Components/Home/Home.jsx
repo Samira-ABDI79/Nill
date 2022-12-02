@@ -1,5 +1,4 @@
 import images from "../../Importer/Importer";
-import { Link } from "react-router-dom";
 import NewProject from "../NewProject/NewProject";
 import ClosedProjects from "../ClosedProjects/ClosedProjects";
 import EmployersComments from "./Components/EmployersComments";
@@ -10,11 +9,15 @@ import WorkPlan from "./Components/WorkPlan";
 import HomeSlider from "../HomeSlider/HomeSlider";
 import "./style.css";
 import Button from "../Button/Button";
+import WaterEffect from "../WaterEffect/WaterEffect";
+
+
 function Home() {
+
   const defaulttext =
     " لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از  طراحان گرافیک است . ";
   return (
-    <>
+    <div>
       <div className="w-screen bg-white pb-12 ">
         <div className="container bg-white  lg:h-[1000px] lg:relative">
           <div className="">
@@ -56,11 +59,12 @@ function Home() {
 
       <div className="w-screen bg-black lg:pb-6 ">
         <div className="">
-          <div className="container  flex flex-col lg:flex-row  mt-10 justify-between pb-4">
-            <img
-              src={images["Home/image 15.png"]}
-              alt="طراحی ست اداری"
-              className="w-full  "
+          <div className="container flex flex-col lg:flex-row items-center  mt-10 justify-between pb-4">
+
+            <WaterEffect
+              image1={images["Home/image 15.png"]}
+              image2={images["Work/Rectangle 54.png"]}
+              image3={images["Home/test/image2.jpg"]}
             />
 
             <div dir="rtl" className=" my-12 lg:my-0  lg:pb-6">
@@ -88,7 +92,11 @@ function Home() {
       {/* ************************* start WorkPlan */}
       <div className="bg-white">
         <div className="container lg:pr-32 ">
-          <CustomBreadcrumbs pageName="خدمات ما" className="text-black" route="" />
+          <CustomBreadcrumbs
+            pageName="خدمات ما"
+            className="text-black"
+            route=""
+          />
           <p className="font-bold text-3xl lg:pr-2 pr-4  text-black" dir="rtl">
             زمینه های کاری ما{" "}
           </p>
@@ -183,7 +191,7 @@ function Home() {
       <ClosedProjects />
 
       <NewProject />
-    </>
+    </div>
   );
 }
 
