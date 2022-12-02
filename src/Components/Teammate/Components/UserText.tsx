@@ -56,15 +56,15 @@ function UserText() {
               <div className=" text-2xl ">2019 - 2021</div>
             </div>
             <p className="mt-10 lg:mt-0 text-xl lg:text-base">{item.about}</p>
-            <ul className="list-disc py-8 mx-4 text-xl lg:text-base">
+            <ul className="list-disc py-6 mx-4 text-xl lg:text-sm">
               <li className="mt-4 mx-2">
-                م ده از طراحان گرافیک است . چاپگر ها و متون بلکه روزنامه و
+                م ده از طراحان گرافیک است . چاپگر ها و متون بلکه روزنامه 
               </li>
               <li className="mt-4 mx-2">
-                م ده از طراحان گرافیک است . چاپگر ها و متون بلکه روزنامه و
+                م ده از طراحان گرافیک است . چاپگر ها و متون بلکه روزنامه 
               </li>
               <li className="mt-4 mx-2">
-                م ده از طراحان گرافیک است . چاپگر ها و متون بلکه روزنامه و
+                م ده از طراحان گرافیک است . چاپگر ها و متون بلکه روزنامه 
               </li>
             </ul>
           </div>
@@ -77,23 +77,25 @@ function UserText() {
               <div className=" text-2xl ">2019 - 2021</div>
             </div>
             <p className="mt-10 lg:mt-0 text-xl lg:text-base">{item.about}</p>
-            <ul className="list-disc py-8 mx-4 text-xl lg:text-base">
+            <ul className="list-disc py-6 mx-4 text-xl lg:text-sm">
               <li className="mt-4 mx-2">
-                م ده از طراحان گرافیک است . چاپگر ها و متون بلکه روزنامه و
+                م ده از طراحان گرافیک است . چاپگر ها و متون بلکه روزنامه 
               </li>
               <li className="mt-4 mx-2">
-                م ده از طراحان گرافیک است . چاپگر ها و متون بلکه روزنامه و
+                م ده از طراحان گرافیک است . چاپگر ها و متون بلکه روزنامه 
               </li>
               <li className="mt-4 mx-2">
-                م ده از طراحان گرافیک است . چاپگر ها و متون بلکه روزنامه و
+                م ده از طراحان گرافیک است . چاپگر ها و متون بلکه روزنامه 
               </li>
             </ul>
           </div>
 
-          <div className="flex items-center  lg:-mb-5 ">
+          <div className="flex items-center  lg:-mb-7 ">
             <div className="h-[1px]  w-16 bg-yellow  hidden lg:inline-block  "></div>
+<div className="lg:mr-0 mr-16 lg:-mt-5">
+<Button btnType="simple" btntxt="دانلود رزومه" route="/"  />
 
-            <Button btnType="simple" btntxt="دانلود رزومه" route="/" />
+</div>
           </div>
         </div>
       ))}

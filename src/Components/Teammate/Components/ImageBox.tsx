@@ -26,13 +26,13 @@ function ImageBox(){
                         <p className="ml-2 lg:text-base text-xl ">{item.phoneNumber}</p>
                     
                     </div>
-                    <div className="flex justify-between  py-4">
+                    <div className="flex justify-between   py-4">
                         <img
-                        className="lg:pr-6"
+                        className=""
                         src={images["Icons/Email.svg"]}
                         alt="phone icon"
                       />
-                        <p className="px-2  lg:text-base text-xl ">{item.email}</p>
+                        <p className=" text-base ">{item.email}</p>
                     
                     </div>
                     
