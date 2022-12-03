@@ -1,8 +1,12 @@
 import { Button } from "src/Components";
-
+import Transition from "src/Components/Transition/Transition";
+import gsap from 'gsap';
 function NewProjectForm() {
+  const newProject = gsap.timeline();
+
   return (
     <>
+     <Transition timeline={newProject}/>
       <div className="lg:px-10 px-2 py-8  bg-dark">
         <p className=" mt-12  text-xl  text-center mb-6" dir="rtl">
           درخواست انجام پروژه
