@@ -43,7 +43,7 @@ function Drawer(props: type) {
           )}
           {showModal ? (
             <button
-              className="absolute right-4 lg:-top-[495px] -top-10 z-50 animation"
+              className="absolute right-4 lg:-top-[489px] -top-10 z-50 animation"
               type="button"
               onClick={() => setShowModal(false)}
             >
@@ -215,7 +215,7 @@ function Drawer(props: type) {
           )}
           {showModal ? (
             <button
-              className="close z-50"
+              className="close z-50 "
               type="button"
               onClick={() => setShowModal(false)}
             >
@@ -242,9 +242,9 @@ function Drawer(props: type) {
         <></>
       )}
       {showModal ? (
-        <div className="modal">
-          <header className="w-screen p-3 bg-dark shadow overflow-x-hidden z-50">
-            <div className="w-screen  flex justify-between p-3">
+        <div className="modal ">
+          <header className="w-screen p-3 bg-dark shadow overflow-x-hidden z-50 ">
+            <div className="w-screen  flex justify-between p-3 overflow-y-hidden">
               <p className="text-white font-bold lg:text-xl text-2xl">
                 <Link to="/">NILL</Link>
               </p>
@@ -255,7 +255,7 @@ function Drawer(props: type) {
           </header>
           <div
             id="drawer"
-            className="fixed h-screen p-4 overflow-y-auto bg-black w-screen  drawer"
+            className="fixed h-screen p-4 overflow-y-auto bg-black w-screen  drawer  "
             aria-labelledby="drawer-label"
           >
             <div className="pb-20">
@@ -264,7 +264,7 @@ function Drawer(props: type) {
                   <ul>
                     {item.map((item) => (
                       <li
-                        className="p-3 pt-8 hover:underline-offset-0 font-bold z-50 text-2xl text-white"
+                        className="p-3 pt-7 hover:underline-offset-0 font-bold z-50 text-2xl text-white"
                         onClick={() => setShowModal(false)}
                       >
                         <Link to={item.route} data-text={item.name}>
@@ -286,12 +286,7 @@ function Drawer(props: type) {
         <div className="modal">
           <header className="w-screen p-3 bg-white shadow overflow-x-hidden z-10">
             <div className="w-screen  flex justify-between p-3">
-              {/* <p className="text-black font-bold lg:text-xl text-2xl">
-                  <Link to="/">NILL</Link>
-                </p> */}
-              {/* <div className="flex justify-between lg:w-32 w-3/6"> */}
-              {/* <p className="text-black font-bold text-xl">منو</p> */}
-              {/* </div> */}
+              
             </div>
           </header>
           <div

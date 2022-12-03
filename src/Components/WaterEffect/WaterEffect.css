@@ -43,3 +43,12 @@
   align-items: center;
   padding-top: 5px;
 }
+
+@media screen and (max-width: 800px) {
+  .item-image-dad {
+    
+    width: 100%;
+  }
+  
+ 
+}
