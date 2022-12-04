@@ -16,7 +16,7 @@ function WaterEffect(props) {
     })
     return (
         <>
-            <div className="container-1 ">
+            <div className="container-1">
                 <div className="item-image-dad">
                     <div className="item-header">
                     </div>
