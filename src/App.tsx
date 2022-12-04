@@ -11,7 +11,7 @@ import {
   NotFound,
   NewProjectForm,
 } from "./Pages";
-
+import { CollectionPage } from "./Components/CollectionPage/CollectionPage";
 import { MainLayout, HomeLayout, PostLayout } from "./Layouts";
 // import AOS from "aos";
 // import "aos/dist/aos.css";
@@ -106,6 +106,7 @@ export default function App() {
                     path="/new-project-form"
                     element={<NewProjectForm />}
                   />
+                  <Route path="/bb" element={<CollectionPage />}/>
                 </Route>
               </Routes>
             </ScrollToTop>
