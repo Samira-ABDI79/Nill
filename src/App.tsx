@@ -20,6 +20,7 @@ import { MainLayout, HomeLayout, PostLayout } from "./Layouts";
 // import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 // gsap.registerPlugin(ScrollTrigger);
 import "./App.css";
+import Slider2 from "./Components/Slider/Slider2";
 
 export default function App() {
   // START AOS plugin
@@ -98,7 +99,7 @@ export default function App() {
                 </Route>
 
                 <Route element={<MainLayout />}>
-                  <Route path="/about" element={<About />} />
+                  <Route path="/about" element={<Slider2 />} />
                   <Route path="/work" element={<Work />} />
                   <Route path="/blog" element={<Blog />} />
                   <Route path="/teammate" element={<Teammate />} />
