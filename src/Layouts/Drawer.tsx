@@ -73,7 +73,7 @@ function Drawer(props: type) {
       {props.flag == "Home" ? (
         <div>
           <div className="nav-full">
-            <div className="nav-container">
+            <div className="">
               <div className={navOpen ? "navbar-present" : "navbar-present bg-white"}>
                 <div className="logo-present">
                   <p
@@ -282,41 +282,7 @@ function Drawer(props: type) {
         <></>
       )}
 
-      {showModal && props.flag == "Home" ? (
-        <div className="modal">
-          <header className="w-screen p-3 bg-white shadow overflow-x-hidden z-10">
-            <div className="w-screen  flex justify-between p-3">
-              
-            </div>
-          </header>
-          <div
-            id="drawer"
-            className="fixed h-screen p-4 overflow-y-auto bg-black w-screen  drawer animation"
-            aria-labelledby="drawer-label"
-          >
-            <div className="   pb-20 ">
-              <div className="w-full flex flex-col justify-center items-center ">
-                <div className="navigation ">
-                  <ul className="">
-                    {item.map((item) => (
-                      <li
-                        className="p-3 pt-8 hover:underline-offset-0 font-bold z-50 text-2xl text-white "
-                        onClick={() => setShowModal(false)}
-                      >
-                        <Link to={item.route} data-text={item.name}>
-                          {item.name}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      ) : (
-        <></>
-      )}
+     
     </>
   );
 }

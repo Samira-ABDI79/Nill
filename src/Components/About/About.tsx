@@ -21,7 +21,7 @@ function About() {
         </p>
       </div>
       <div className="flex justify-center items-center mt-10">
-        <img src={images["Icons/ScrollDwn.svg"]} alt="ScrollDwn" />
+        <img src={images["Icons/ScrollDwn.svg"]} alt="ScrollDwn" className="w-12" />
       </div>
       <div dir="rtl" className="mt-10">
         <img
