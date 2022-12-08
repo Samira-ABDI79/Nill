@@ -6,7 +6,7 @@ import CustomBreadcrumbs from "../CustomBreadcrumbs/CustomBreadcrumbs";
 import ProgressBar from "./Components/ProgressBar";
 import Slider from "../Slider/Slider";
 import WorkPlan from "./Components/WorkPlan";
-import HomeSlider from "../HomeSlider/HomeSlider";
+import Slider2 from "../Slider/Slider2";
 import "./style.css";
 import Button from "../Button/Button";
 import WaterEffect from "../WaterEffect/WaterEffect";
@@ -19,21 +19,18 @@ function Home() {
   return (
     <div>
       <div className="w-screen bg-white pb-12 ">
-        <div className="container bg-white  lg:h-[1000px] lg:relative">
-          <div className="">
-            <HomeSlider />
-          </div>
-          <div
+        <div className="container bg-white  lg:h-[1000px] grid gap-4 grid-cols-2 grid-rows-1 ">
+        <div
             dir="rtl"
-            className="flex justify-center items-center my-12 lg:my-0 md:my-0  lg:w-4/12  lg:absolute lg:right-20 lg:top-44 w-full pb-4 "
+            className="flex justify-center items-center text-center col-span-1   lg:-mt-40"
           >
-            <div className="mt-20 lg:py-12 lg:pr-4 ">
-              <p className="text-blue font-bold text-4xl lg:text-3xl ">
+            <div className=" flex justify-center items-center flex-col ">
+              <p className="text-blue font-bold text-4xl lg:text-3xl text-center">
                 {" "}
                 طراحی ست اداری شرکت hydeout
               </p>
-              <div className="lg:w-5/6">
-                <p className="text-black  font-bold text-2xl lg:text-xl mt-10">
+              <div className="lg:w-5/6 text-center">
+                <p className="text-black  font-bold text-2xl lg:text-xl mt-10 ">
                   این پرسش پیچیدهای است تقریباً نود درصد از احمقها احمق تربیت
                   شده اند و دلیل مادرزاد به دنیا آمدن این ده درصد همان نود درصدی
                   است که احمق تربیت شده اند. انسان از همان دیرباز زندگی عجیب و
@@ -46,12 +43,14 @@ function Home() {
               <Button btnType="simple" btntxt="مشاهده  پروژه" route="/" />
             </div>
           </div>
-          <span className="NillDeveloper  absolute lg:-right-[447px] top-[420px] hidden lg:flex md:-right-[480px]">
+          <div className="col-span-1">
+            <Slider2 />
+          </div>
+          
+          <span className="NillDeveloper  absolute lg:-right-[415px] top-[473px] hidden lg:flex md:-right-[480px]">
             NILL DEVeLOPERS
           </span>
-          {/* <span className="text-stroke-inner hidden md:block">
-            NILL DEVELOPERS
-          </span> */}
+       
         </div>
       </div>
 
